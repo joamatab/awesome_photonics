@@ -18,6 +18,9 @@ Simulation: simulate how photons propagate, and optimize the geometrical shapes
 - https://github.com/NanoComp/meep
 - https://github.com/anstmichaels/emopt
 - https://github.com/stanfordnqp/spins-b
+- https://github.com/lbolla/EMpy
+- https://github.com/twhughes/ceviche
+- https://github.com/fancompute/angler/
 
 
 Control instruments in the lab:

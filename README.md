@@ -1,7 +1,6 @@
 # Software open source projects
 
-
-Layout: we define the geometrical shapes that guide the light. 
+Layout: we define the geometrical shapes that guide the light.
 
 - https://github.com/amccaugh/phidl
 - https://github.com/heitzmann/gdspy
@@ -12,7 +11,6 @@ Layout: we define the geometrical shapes that guide the light.
 - https://github.com/DerekK88/PICwriter
 - https://github.com/lightwave-lab/zeropdk
 
-
 Simulation: simulate how photons propagate, and optimize the geometrical shapes
 
 - https://github.com/NanoComp/meep
@@ -22,13 +20,22 @@ Simulation: simulate how photons propagate, and optimize the geometrical shapes
 - https://github.com/twhughes/ceviche
 - https://github.com/fancompute/angler/
 
-
 Control instruments in the lab:
 
 - https://github.com/mabuchilab/Instrumental
 - https://github.com/lightwave-lab/lightlab
 - https://github.com/ralph-group/pymeasure
 
-
 Data analysis:
+
 - https://docs.dask.org/en/latest/
+
+# System admin
+
+- https://git.shivering-isles.com/shivering-isles/infrastructure
+
+# Documentation
+
+- https://hackmd.io/: markdown collaborative notes
+- https://docs.gitbook.com/content-editing/markdown
+- https://github.com/joamatab/Gitbook-Template-Math

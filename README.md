@@ -25,6 +25,7 @@ Control instruments in the lab:
 - https://github.com/mabuchilab/Instrumental
 - https://github.com/lightwave-lab/lightlab
 - https://github.com/ralph-group/pymeasure
+- https://github.com/DerekK88/PIC_WaferProbeSystem
 
 Data analysis:
 

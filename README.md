@@ -2,34 +2,35 @@
 
 Layout: we define the geometrical shapes that guide the light.
 
-- https://github.com/amccaugh/phidl
-- https://github.com/heitzmann/gdspy
-- https://github.com/KLayout/klayout
-- https://github.com/AyarLabs/ACG
-- https://github.com/lukasc-ubc/SiEPIC-Tools
-- https://github.com/lukasc-ubc/SiEPIC_EBeam_PDK
-- https://github.com/DerekK88/PICwriter
-- https://github.com/lightwave-lab/zeropdk
+- [phidl](https://github.com/amccaugh/phidl)
+- [picwriter](https://github.com/DerekK88/PICwriter)
+- [gdspy](https://github.com/heitzmann/gdspy)
+- [zero-pdk](https://github.com/lightwave-lab/zeropdk)
+- [klayout](https://github.com/KLayout/klayout)
+- [ayar labs](https://github.com/AyarLabs/ACG)
+- [siepic-tools](https://github.com/lukasc-ubc/SiEPIC-Tools)
+- [siepic-ebeam-pdk](https://github.com/lukasc-ubc/SiEPIC_EBeam_PDK)
 
 Simulation: simulate how photons propagate, and optimize the geometrical shapes
 
-- https://github.com/NanoComp/meep
-- https://github.com/anstmichaels/emopt
-- https://github.com/stanfordnqp/spins-b
-- https://github.com/lbolla/EMpy
-- https://github.com/twhughes/ceviche
-- https://github.com/fancompute/angler/
+- [meep](https://github.com/NanoComp/meep)
+- [emopt](https://github.com/anstmichaels/emopt)
+- [spins](https://github.com/stanfordnqp/spins-b)
+- [empy](https://github.com/lbolla/EMpy)
+- [ceviche](https://github.com/twhughes/ceviche)
+- [angler](https://github.com/fancompute/angler/)
 
 Control instruments in the lab:
 
-- https://github.com/mabuchilab/Instrumental
-- https://github.com/lightwave-lab/lightlab
-- https://github.com/ralph-group/pymeasure
-- https://github.com/DerekK88/PIC_WaferProbeSystem
+- [instrumental](https://github.com/mabuchilab/Instrumental)
+- [lightlab](https://github.com/lightwave-lab/lightlab)
+- [pymeasure](https://github.com/ralph-group/pymeasure)
+- [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
 
 Data analysis:
 
-- https://docs.dask.org/en/latest/
+- [ant](https://github.com/jaspreetj/manufacturing-variability-analysis-tool/tree/master/ANT_data_march_2019)
+- [dask](https://docs.dask.org/en/latest/)
 
 # System admin
 
@@ -40,3 +41,4 @@ Data analysis:
 - https://hackmd.io/: markdown collaborative notes
 - https://docs.gitbook.com/content-editing/markdown
 - https://github.com/joamatab/Gitbook-Template-Math
+- https://hackmd.io/@joamatab/rJngxJudr#/

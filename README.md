@@ -36,6 +36,8 @@ Data analysis:
 # System admin
 
 - https://git.shivering-isles.com/shivering-isles/infrastructure
+- https://github.com/awesome-selfhosted/awesome-selfhosted
+- https://git.cloudron.io/cloudron
 
 # Documentation
 

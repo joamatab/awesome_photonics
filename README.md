@@ -10,7 +10,7 @@ Layout: we define the geometrical shapes that guide the light.
 - [ayar labs](https://github.com/AyarLabs/ACG)
 - [siepic-tools](https://github.com/lukasc-ubc/SiEPIC-Tools)
 - [siepic-ebeam-pdk](https://github.com/lukasc-ubc/SiEPIC_EBeam_PDK)
-- [soen-pdk](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
+- soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
 
 Simulation: simulate how photons propagate, and optimize the geometrical shapes
 

@@ -27,6 +27,8 @@ Control instruments in the lab:
 - [lightlab](https://github.com/lightwave-lab/lightlab)
 - [pymeasure](https://github.com/ralph-group/pymeasure)
 - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
+- [laval](https://github.com/Simon-Belanger/ULPythonLab)
+- [ubc automated pic-tester](https://github.com/lukasc-ubc/pyOptomip)
 
 Data analysis:
 

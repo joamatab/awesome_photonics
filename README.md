@@ -2,6 +2,7 @@
 
 Layout: we define the geometrical shapes that guide the light.
 
+- [gdsfactory](https://github.com/PsiQ/gdsfactory)
 - [phidl](https://github.com/amccaugh/phidl)
 - [picwriter](https://github.com/DerekK88/PICwriter)
 - [gdspy](https://github.com/heitzmann/gdspy)
@@ -11,6 +12,7 @@ Layout: we define the geometrical shapes that guide the light.
 - [siepic-tools](https://github.com/lukasc-ubc/SiEPIC-Tools)
 - [siepic-ebeam-pdk](https://github.com/lukasc-ubc/SiEPIC_EBeam_PDK)
 - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
+- [gdshelpers](https://github.com/HelgeGehring/gdshelpers)
 
 Simulation: simulate how photons propagate, and optimize the geometrical shapes
 

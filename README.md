@@ -13,6 +13,7 @@ Layout: we define the geometrical shapes that guide the light.
 - [siepic-ebeam-pdk](https://github.com/lukasc-ubc/SiEPIC_EBeam_PDK)
 - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
 - [gdshelpers](https://github.com/HelgeGehring/gdshelpers)
+- [masque](https://mpxd.net/code/jan/masque)
 
 Simulation: simulate how photons propagate, and optimize the geometrical shapes
 

@@ -31,6 +31,7 @@ Control instruments in the lab:
 - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
 - [laval](https://github.com/Simon-Belanger/ULPythonLab)
 - [ubc automated pic-tester](https://github.com/lukasc-ubc/pyOptomip)
+- [labrad](https://github.com/labrad/pylabrad)
 
 Data analysis:
 

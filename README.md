@@ -14,6 +14,7 @@ Layout: we define the geometrical shapes that guide the light.
 - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
 - [gdshelpers](https://github.com/HelgeGehring/gdshelpers)
 - [masque](https://mpxd.net/code/jan/masque)
+- [gds3xtrude](https://codeberg.org/tok)
 
 Simulation: simulate how photons propagate, and optimize the geometrical shapes
 

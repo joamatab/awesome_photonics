@@ -1,4 +1,4 @@
-# Software open source projects
+# Photonic open source projects
 
 Layout: we define the geometrical shapes that guide the light.
 
@@ -15,15 +15,25 @@ Layout: we define the geometrical shapes that guide the light.
 - [gdshelpers](https://github.com/HelgeGehring/gdshelpers)
 - [masque](https://mpxd.net/code/jan/masque)
 - [gds3xtrude](https://codeberg.org/tok)
+- [epda](https://openepda.org/openepda_data_format.html)
+- [nazca (freeware, not open source)](https://nazca-design.org/download/)
 
 Simulation: simulate how photons propagate, and optimize the geometrical shapes
 
-- [meep](https://github.com/NanoComp/meep)
-- [emopt](https://github.com/anstmichaels/emopt)
-- [spins](https://github.com/stanfordnqp/spins-b)
-- [empy](https://github.com/lbolla/EMpy)
-- [ceviche](https://github.com/twhughes/ceviche)
-- [angler](https://github.com/fancompute/angler/)
+  mode solvers:
+  - [modesolverpy](https://github.com/joamatab/modesolverpy)
+  - [empy (mode solver)](https://github.com/lbolla/EMpy)
+
+  component:
+  - [meep FDTD](https://github.com/NanoComp/meep)
+  - [emopt FDTD](https://github.com/anstmichaels/emopt)
+  - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
+  - [ceviche (2D only)](https://github.com/twhughes/ceviche)
+  - [angler](https://github.com/fancompute/angler/)
+  
+  circuit simulator:
+  - [simphony](https://github.com/BYUCamachoLab/simphony)
+
 
 Control instruments in the lab:
 

@@ -33,6 +33,7 @@ Simulation: simulate how photons propagate, and optimize the geometrical shapes
   
   circuit simulator:
   - [simphony](https://github.com/BYUCamachoLab/simphony)
+  - [sipann](https://github.com/contagon/SiPANN)
 
 
 Control instruments in the lab:

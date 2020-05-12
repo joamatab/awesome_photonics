@@ -36,6 +36,10 @@ Simulation: simulate how photons propagate, and optimize the geometrical shapes
   - [sipann](https://github.com/contagon/SiPANN)
 
 
+  system simulator:
+  - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)
+  - [scikit-rf](https://scikit-rf.readthedocs.io/en/latest/)
+
 Control instruments in the lab:
 
 - [instrumental](https://github.com/mabuchilab/Instrumental)

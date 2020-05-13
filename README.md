@@ -33,12 +33,12 @@
     - [meep ipkiss integration](https://github.com/luceda/ipkiss_meep_integration)
   - [emopt FDTD](https://github.com/anstmichaels/emopt)
   - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
-  - [ceviche (2D only)](https://github.com/twhughes/ceviche)
-  - [angler](https://github.com/fancompute/angler/)
+  - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)
+  - [angler](https://github.com/fancompute/angler/) Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices 
+  - [SiPANN (neural networks for photonics component design)](https://github.com/contagon/SiPANN)
 
 - circuit simulator:
   - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
-  - [sipann](https://github.com/contagon/SiPANN)
 
 - system tools:
   - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)

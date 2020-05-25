@@ -32,6 +32,7 @@
   - [meep FDTD](https://github.com/NanoComp/meep)
     - [meep ipkiss integration](https://github.com/luceda/ipkiss_meep_integration)
   - [emopt FDTD](https://github.com/anstmichaels/emopt)
+  - [Python 3D FDTD simulator](https://github.com/flaport/fdtd)
   - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
   - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)
   - [angler](https://github.com/fancompute/angler/) Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices 

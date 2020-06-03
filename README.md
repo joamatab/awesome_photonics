@@ -37,6 +37,14 @@
   - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)
   - [angler](https://github.com/fancompute/angler/) Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices 
   - [SiPANN (neural networks for photonics component design)](https://github.com/contagon/SiPANN)
+  - [inverse design](http://metanet.stanford.edu/code/)
+    - [glonet: global optimization based on generative neural networks](https://github.com/jonfanlab/GLOnet)
+    - [wavetorch](https://github.com/fancompute/wavetorch)
+    - [lumopt](https://github.com/chriskeraly/lumopt)
+  
+    
+
+    
 
 - circuit simulator:
   - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)

@@ -68,6 +68,10 @@
 - [ant](https://github.com/jaspreetj/manufacturing-variability-analysis-tool/tree/master/ANT_data_march_2019)
 - [dask](https://docs.dask.org/en/latest/)
 
+# Other interesting links
+
+- [princeton notebooks](https://github.com/simbilod/ELE559-simulations)
+
 # System admin
 
 - https://git.shivering-isles.com/shivering-isles/infrastructure

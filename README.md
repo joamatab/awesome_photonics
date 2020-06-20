@@ -27,6 +27,9 @@
 - mode solvers:
   - [modesolverpy](https://github.com/joamatab/modesolverpy)
   - [empy (mode solver)](https://github.com/lbolla/EMpy)
+  - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/)
+  - [pymode](https://github.com/smartalecH/pyMode)
+    -[wgms3d](http://www.soundtracker.org/raw/wgms3d/)
 
 - component design:
   - [meep FDTD](https://github.com/NanoComp/meep)

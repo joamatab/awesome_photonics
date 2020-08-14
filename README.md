@@ -44,13 +44,10 @@
     - [glonet: global optimization based on generative neural networks](https://github.com/jonfanlab/GLOnet)
     - [wavetorch](https://github.com/fancompute/wavetorch)
     - [lumopt](https://github.com/chriskeraly/lumopt)
-  
-    
-
-    
 
 - circuit simulator:
   - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
+  - [photontorch](https://docs.photontorch.com/) [code](https://github.com/flaport/photontorch)
 
 - system tools:
   - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)

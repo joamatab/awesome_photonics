@@ -3,7 +3,7 @@
 ## Layout: define the geometrical shapes that guide the light.
 
 - [gdspy based tools](https://github.com/heitzmann/gdspy)
-    - [gdsfactory](https://github.com/PsiQ/gdsfactory)
+    - [gdsfactory](https://github.com/gdsfactory/gdsfactory)
     - [phidl](https://github.com/amccaugh/phidl)
     - [picwriter](https://github.com/DerekK88/PICwriter)
     - [gdshelpers](https://github.com/HelgeGehring/gdshelpers)

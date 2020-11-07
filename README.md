@@ -71,6 +71,8 @@
 # Other interesting links
 
 - [princeton notebooks](https://github.com/simbilod/ELE559-simulations)
+- javscript schematic editor [code](https://github.com/kieler/elkjs) [demo](https://rtsys.informatik.uni-kiel.de/elklive/elkgraph.html)
+- [VLSI placement](https://github.com/limbo018/DREAMPlace)
 
 # System admin
 

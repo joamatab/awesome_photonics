@@ -28,8 +28,10 @@
   - [modesolverpy](https://github.com/joamatab/modesolverpy)
   - [empy (mode solver)](https://github.com/lbolla/EMpy)
   - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/)
+  - [philsol](https://github.com/philmain28/philsol)
   - [pymode](https://github.com/smartalecH/pyMode)
     -[wgms3d](http://www.soundtracker.org/raw/wgms3d/)
+
 
 - component design:
   - [meep FDTD](https://github.com/NanoComp/meep)
@@ -48,6 +50,7 @@
 - circuit simulator:
   - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
   - [photontorch](https://docs.photontorch.com/) [code](https://github.com/flaport/photontorch)
+  - [sax](https://github.com/flaport/sax)
   - [opics](https://github.com/siepic/opics)
 
 - system tools:

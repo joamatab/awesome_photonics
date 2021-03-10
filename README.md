@@ -59,6 +59,7 @@
 
 ## Control instruments in the lab
 
+- [testing framework template](https://github.com/google/openhtf)
 - [instrumental](https://github.com/mabuchilab/Instrumental)
 - [lightlab](https://github.com/lightwave-lab/lightlab)
 - [pymeasure](https://github.com/ralph-group/pymeasure)

@@ -40,12 +40,12 @@
   - [Python 3D FDTD simulator](https://github.com/flaport/fdtd)
   - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
   - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)
-  - [angler](https://github.com/fancompute/angler/) Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices 
   - [SiPANN (neural networks for photonics component design)](https://github.com/contagon/SiPANN)
   - [inverse design](http://metanet.stanford.edu/code/)
     - [glonet: global optimization based on generative neural networks](https://github.com/jonfanlab/GLOnet)
     - [wavetorch](https://github.com/fancompute/wavetorch)
     - [lumopt](https://github.com/chriskeraly/lumopt)
+    - [angler](https://github.com/fancompute/angler/) Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices 
 
 - circuit simulator:
   - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
@@ -56,6 +56,11 @@
 - system tools:
   - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)
   - [scikit-rf RF simulator](https://scikit-rf.readthedocs.io/en/latest/)
+
+
+- ray tracing:
+  - [ray tracing](https://github.com/DCC-Lab/RayTracing)
+  - [rayopt](https://github.com/quartiq/rayopt)
 
 ## Control instruments in the lab
 
@@ -73,7 +78,7 @@
 - [ant](https://github.com/jaspreetj/manufacturing-variability-analysis-tool/tree/master/ANT_data_march_2019)
 - [dask](https://docs.dask.org/en/latest/)
 
-# Other interesting links
+# Misc
 
 - [princeton notebooks](https://github.com/simbilod/ELE559-simulations)
 - javscript schematic editor [code](https://github.com/kieler/elkjs) [demo](https://rtsys.informatik.uni-kiel.de/elklive/elkgraph.html)

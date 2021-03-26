@@ -29,10 +29,10 @@
 - mode solver:
 
   - Finite Difference
-    - [modesolverpy](https://github.com/joamatab/modesolverpy)
-    - [empy (mode solver)](https://github.com/lbolla/EMpy)
+    - [modes](https://modes.readthedocs.io/en/latest/)
+    - [EMpy](https://github.com/lbolla/EMpy)
     - [philsol](https://github.com/philmain28/philsol)
-    - [pymode](https://github.com/smartalecH/pyMode)
+    - [pymode](https://github.com/smartalecH/pyMode) allows bends
       - [wgms3d](http://www.soundtracker.org/raw/wgms3d/)
   - Band structure
     - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/)

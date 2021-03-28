@@ -77,10 +77,11 @@
 
 ## Control instruments in the lab
 
-- [testing framework template](https://github.com/google/openhtf)
-- [instrumental](https://github.com/mabuchilab/Instrumental)
 - [lightlab](https://github.com/lightwave-lab/lightlab)
+- [pyrolab](https://github.com/BYUCamachoLab/pyrolab)
+- [instrumental](https://github.com/mabuchilab/Instrumental)
 - [pymeasure](https://github.com/ralph-group/pymeasure)
+- [testing framework template](https://github.com/google/openhtf)
 - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
 - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab)
 - [ubc automated pic-tester](https://github.com/lukasc-ubc/pyOptomip)

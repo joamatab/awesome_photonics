@@ -1,5 +1,8 @@
 # Photonic open source projects
 
+If you are new to Git and Python I reccommend reading this [article](https://lightlab.readthedocs.io/en/latest/_static/gettingStarted/index.html)
+Most tools in this list are written or have a python interface, which require some basic knowledge of python. If you are new to python you can find many [books](https://jakevdp.github.io/PythonDataScienceHandbook/index.html), [youTube videos](https://www.youtube.com/c/anthonywritescode) and [courses](https://github.com/joamatab/practical-python) available online.
+
 ## Layout: define the geometrical shapes that guide the light.
 
 - [gdspy based tools](https://github.com/heitzmann/gdspy)
@@ -17,12 +20,12 @@
   - [spicex: netlist extraction](https://github.com/fsitok/spicex)
   - [simplify polygons](https://github.com/fsitok/klayout-simplify)
 - [masque](https://mpxd.net/code/jan/masque)
-- [epda](https://openepda.org/openepda_data_format.html)
+- [epda](https://openepda.org)
 - [nazca (freeware, not open source)](https://nazca-design.org/download/)
 - Technology Specific:
-    - [Ayar cell generator](https://github.com/AyarLabs/ACG)
-    - [BerkeleyPhotonicsGenerator](https://github.com/BerkeleyPhotonicsGenerator/BPG)
-    - [qiskit-metal](https://github.com/Qiskit/qiskit-metal)
+  - [Ayar cell generator](https://github.com/AyarLabs/ACG)
+  - [BerkeleyPhotonicsGenerator](https://github.com/BerkeleyPhotonicsGenerator/BPG)
+  - [qiskit-metal](https://github.com/Qiskit/qiskit-metal)
 
 ## Simulation: simulate how photons propagate, and optimize the geometrical shapes
 
@@ -69,15 +72,18 @@
   - [sax](https://github.com/flaport/sax)
   - [photontorch](https://docs.photontorch.com/) [code](https://github.com/flaport/photontorch)
   - [opics](https://github.com/siepic/opics)
+  - [SignalIntegrity (linear circuit simulation)](https://github.com/TeledyneLeCroy/SignalIntegrity)
+  - [scikit-rf RF simulator](https://scikit-rf.readthedocs.io/en/latest/)
 
 - system tools:
 
   - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)
-  - [scikit-rf RF simulator](https://scikit-rf.readthedocs.io/en/latest/)
 
 ## Control instruments in the lab
 
-- [lightlab](https://github.com/lightwave-lab/lightlab)
+[PyVISA](https://pyvisa.readthedocs.io/en/latest/) allows you to control the lab instruments with python. As the backend you can use NI or [PyVISA-py](https://pyvisa-py.readthedocs.io/en/latest/)
+
+- lightlab [repo](https://github.com/lightwave-lab/lightlab) [docs](https://lightlab.readthedocs.io/en/latest/index.html)
 - [pyrolab](https://github.com/BYUCamachoLab/pyrolab)
 - [instrumental](https://github.com/mabuchilab/Instrumental)
 - [pymeasure](https://github.com/ralph-group/pymeasure)
@@ -92,19 +98,32 @@
 - [ant](https://github.com/jaspreetj/manufacturing-variability-analysis-tool/tree/master/ANT_data_march_2019)
 - [dask](https://docs.dask.org/en/latest/)
 
-# Misc
+## Tools summary
+
+Here is a summary of the tools I use for Silicon Photonics design
+
+| Purpose                        | Tool          |
+| ------------------------------ | ------------- |
+| Layout generator               | gdsfactory    |
+| Layout viewer                  | klayout       |
+| Mode solver                    | modes and mpb |
+| FDTD                           | Meep          |
+| circuit simulation (photonics) | simphony      |
+| lab instrumentation            | lightlab      |
+
+## Misc
 
 - [princeton notebooks](https://github.com/simbilod/ELE559-simulations)
 - javscript schematic editor [code](https://github.com/kieler/elkjs) [demo](https://rtsys.informatik.uni-kiel.de/elklive/elkgraph.html)
 - [VLSI placement](https://github.com/limbo018/DREAMPlace)
 
-# System admin
+## System admin
 
 - https://git.shivering-isles.com/shivering-isles/infrastructure
 - https://github.com/awesome-selfhosted/awesome-selfhosted
 - https://git.cloudron.io/cloudron
 
-# Documentation
+## Documentation
 
 - https://hackmd.io/: markdown collaborative notes
 - https://docs.gitbook.com/content-editing/markdown

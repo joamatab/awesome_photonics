@@ -6,7 +6,7 @@ Most tools in this list are written or have a python interface, which require so
 ## Layout: define the geometrical shapes that guide the light.
 
 - [gdspy based tools](https://github.com/heitzmann/gdspy)
-  - [gdsfactory](https://github.com/gdsfactory/gdsfactory)
+  - gdsfactory [docs](https://gdsfactory.readthedocs.io/en/latest/) [code](https://github.com/gdsfactory/gdsfactory)
   - [phidl](https://github.com/amccaugh/phidl)
   - [picwriter](https://github.com/DerekK88/PICwriter)
   - [gdshelpers](https://github.com/HelgeGehring/gdshelpers)
@@ -21,7 +21,7 @@ Most tools in this list are written or have a python interface, which require so
   - [simplify polygons](https://github.com/fsitok/klayout-simplify)
 - [masque](https://mpxd.net/code/jan/masque)
 - [epda](https://openepda.org)
-- [nazca (freeware, not open source)](https://nazca-design.org/download/)
+- [nazca](https://nazca-design.org/download/)
 - Technology Specific:
   - [Ayar cell generator](https://github.com/AyarLabs/ACG)
   - [BerkeleyPhotonicsGenerator](https://github.com/BerkeleyPhotonicsGenerator/BPG)
@@ -68,6 +68,7 @@ Most tools in this list are written or have a python interface, which require so
 
 - circuit simulator:
 
+  - [gdslib](https://gdslib.readthedocs.io/en/latest/)
   - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
   - [sax](https://github.com/flaport/sax)
   - [photontorch](https://docs.photontorch.com/) [code](https://github.com/flaport/photontorch)
@@ -95,21 +96,22 @@ Most tools in this list are written or have a python interface, which require so
 
 ## Data analysis
 
-- [ant](https://github.com/jaspreetj/manufacturing-variability-analysis-tool/tree/master/ANT_data_march_2019)
-- [dask](https://docs.dask.org/en/latest/)
+- pandas
+- [ANT variability notebooks](https://github.com/jaspreetj/manufacturing-variability-analysis-tool/tree/master/ANT_data_march_2019)
+- [dask](https://docs.dask.org/en/latest/) for paralell
 
 ## Tools summary
 
 Here is a summary of the tools I use for Silicon Photonics design
 
-| Purpose                        | Tool          |
-| ------------------------------ | ------------- |
-| Layout generator               | gdsfactory    |
-| Layout viewer                  | klayout       |
-| Mode solver                    | modes and mpb |
-| FDTD                           | Meep          |
-| circuit simulation (photonics) | simphony      |
-| lab instrumentation            | lightlab      |
+| Purpose                               | Tool                                                                                                                                       |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Layout generator                      | [gdsfactory](https://gdsfactory.readthedocs.io/en/latest/)                                                                                 |
+| Layout viewer                         | [klayout](https://www.klayout.de/)                                                                                                         |
+| Mode solver                           | [Modes](https://modes.readthedocs.io/en/latest/) and [MPB](https://mpb.readthedocs.io/en/latest/Python_Tutorial/#our-first-band-structure) |
+| FDTD                                  | [Meep](https://meep.readthedocs.io/en/latest/Installation/)                                                                                |
+| Frequency domain circuit simulator    | [gdslib](https://gdslib.readthedocs.io/en/latest/)                                                                                         |
+| lab measurements (instrument control) | [lightlab](https://lightlab.readthedocs.io/en/latest/index.html)                                                                           |
 
 ## Misc
 

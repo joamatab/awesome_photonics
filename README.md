@@ -62,9 +62,14 @@ Most tools in this list are written or have a python interface, which require so
     - [wavetorch](https://github.com/fancompute/wavetorch)
     - [lumopt](https://github.com/chriskeraly/lumopt)
     - [angler](https://github.com/fancompute/angler/) Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices
+  - TCAD
+    - [devsim](https://devsim.org/)
+    - [BOSIM](https://eexu.home.ece.ust.hk/BOSIM.html)
   - ray tracing:
     - [ray tracing](https://github.com/DCC-Lab/RayTracing)
     - [rayopt](https://github.com/quartiq/rayopt)
+  - adaptive optics
+    - [AOtools](https://github.com/AOtools)
 
 - circuit simulator:
 

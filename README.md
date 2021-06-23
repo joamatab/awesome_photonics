@@ -102,8 +102,6 @@ Most tools in this list are written or have a python interface, which require so
 ## Data analysis
 
 - pandas
-- [ANT variability notebooks](https://github.com/jaspreetj/manufacturing-variability-analysis-tool/tree/master/ANT_data_march_2019)
-- [dask](https://docs.dask.org/en/latest/) for paralell
 
 ## Tools summary
 

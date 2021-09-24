@@ -21,6 +21,7 @@ Most tools in this list are written or have a python interface, which require so
   - [spicex: netlist extraction](https://github.com/fsitok/spicex)
   - [simplify polygons](https://github.com/fsitok/klayout-simplify)
 - [masque](https://mpxd.net/code/jan/masque)
+- [klamath](https://mpxd.net/code/jan/klamath)
 - [epda](https://openepda.org)
 - [nazca](https://nazca-design.org/download/)
 - Technology Specific:
@@ -38,6 +39,7 @@ Most tools in this list are written or have a python interface, which require so
     - [philsol](https://github.com/philmain28/philsol)
     - [pymode](https://github.com/smartalecH/pyMode) allows bends
       - [wgms3d](http://www.soundtracker.org/raw/wgms3d/)
+    - [pyMWM](https://github.com/mnishida/PyMWM)
   - Band structure
     - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/)
 
@@ -87,6 +89,9 @@ Most tools in this list are written or have a python interface, which require so
 
   - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)
 
+- material database
+    - [rii pandas](https://github.com/mnishida/RII_Pandas)
+
 ## Control instruments in the lab
 
 [PyVISA](https://pyvisa.readthedocs.io/en/latest/) allows you to control the lab instruments with python. As the backend you can use NI or [PyVISA-py](https://pyvisa-py.readthedocs.io/en/latest/)
@@ -104,6 +109,7 @@ Most tools in this list are written or have a python interface, which require so
 ## Data analysis
 
 - pandas
+- dask
 
 ## Tools summary
 

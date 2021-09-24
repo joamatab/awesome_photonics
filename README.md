@@ -8,6 +8,7 @@ Most tools in this list are written or have a python interface, which require so
 - [gdspy based tools](https://github.com/heitzmann/gdspy)
   - gdsfactory [docs](https://gdsfactory.readthedocs.io/en/latest/) [code](https://github.com/gdsfactory/gdsfactory)
   - [phidl](https://github.com/amccaugh/phidl)
+  - [dphox](https://github.com/solgaardlab/dphox)
   - [picwriter](https://github.com/DerekK88/PICwriter)
   - [gdshelpers](https://github.com/HelgeGehring/gdshelpers)
   - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
@@ -42,6 +43,7 @@ Most tools in this list are written or have a python interface, which require so
 
 - component design:
 
+  - [simphox](https://github.com/fancompute/simphox)
   - FDTD
     - [meep FDTD](https://github.com/NanoComp/meep)
       - [meep ipkiss integration](https://github.com/luceda/ipkiss_meep_integration)

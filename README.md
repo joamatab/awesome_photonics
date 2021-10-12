@@ -86,12 +86,14 @@ Most tools in this list are written or have a python interface, which require so
   - [SignalIntegrity (linear circuit simulation)](https://github.com/TeledyneLeCroy/SignalIntegrity)
   - [scikit-rf RF simulator](https://scikit-rf.readthedocs.io/en/latest/)
 
-- system tools:
-
-  - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)
-
 - material database
-    - [rii pandas](https://github.com/mnishida/RII_Pandas)
+
+  - [rii pandas](https://github.com/mnishida/RII_Pandas)
+
+- lithography simulation
+  - [optolithium](https://github.com/xthebat/optolithium)
+  - [notebooks](https://github.com/pierremifasol/Lithography-Simulation)
+  - [dimmilitho](https://github.com/vincentlv/DimmiLitho)
 
 ## Control instruments in the lab
 
@@ -112,9 +114,24 @@ Most tools in this list are written or have a python interface, which require so
 - pandas
 - dask
 
-## Tools summary
 
-Here is a summary of the tools I use for Silicon Photonics design
+
+# Electronics
+
+- schematic capture:
+  - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)
+  - javscript schematic editor [code](https://github.com/kieler/elkjs) [demo](https://rtsys.informatik.uni-kiel.de/elklive/elkgraph.html)
+- layout
+  - [kicad PCB layout python](https://github.com/atait/kicad-python)
+  - [VLSI placement](https://github.com/limbo018/DREAMPlace)
+- circuit simulation
+  - [lcapy](https://github.com/mph-/lcapy) linear circuit analysis
+  - [pyspice](https://github.com/FabriceSalvaire/PySpice)
+  - [Spice book](https://github.com/PyLCARS/Python-and-SPICE-Book)
+
+## Tools For PIC development
+
+For Silicon Photonics design you need different tools:
 
 | Purpose                               | Tool                                                                                                                                       |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -125,21 +142,13 @@ Here is a summary of the tools I use for Silicon Photonics design
 | Frequency domain circuit simulator    | [gdslib](https://gdslib.readthedocs.io/en/latest/)                                                                                         |
 | lab measurements (instrument control) | [lightlab](https://lightlab.readthedocs.io/en/latest/index.html)                                                                           |
 
-## Misc
-
-- [princeton notebooks](https://github.com/simbilod/ELE559-simulations)
-- javscript schematic editor [code](https://github.com/kieler/elkjs) [demo](https://rtsys.informatik.uni-kiel.de/elklive/elkgraph.html)
-- [VLSI placement](https://github.com/limbo018/DREAMPlace)
-
-## System admin
-
-- https://git.shivering-isles.com/shivering-isles/infrastructure
-- https://github.com/awesome-selfhosted/awesome-selfhosted
-- https://git.cloudron.io/cloudron
-
-## Documentation
+## Other links
 
 - https://hackmd.io/: markdown collaborative notes
 - https://docs.gitbook.com/content-editing/markdown
 - https://github.com/joamatab/Gitbook-Template-Math
 - https://hackmd.io/@joamatab/rJngxJudr#/
+- [princeton notebooks](https://github.com/simbilod/ELE559-simulations)
+- https://git.shivering-isles.com/shivering-isles/infrastructure
+- https://github.com/awesome-selfhosted/awesome-selfhosted
+- https://git.cloudron.io/cloudron

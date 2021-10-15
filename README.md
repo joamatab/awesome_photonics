@@ -103,6 +103,7 @@ Most tools in this list are written or have a python interface, which require so
 - [pyrolab](https://github.com/BYUCamachoLab/pyrolab)
 - [instrumental](https://github.com/mabuchilab/Instrumental)
 - [pymeasure](https://github.com/ralph-group/pymeasure)
+- LabEXT [docs](https://labext.readthedocs.io/en/latest/) and [code](https://github.com/LabExT/LabExT)
 - [testing framework template](https://github.com/google/openhtf)
 - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
 - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab)

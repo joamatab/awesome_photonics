@@ -50,6 +50,7 @@ Most tools in this list are written or have a python interface, which require so
     - [meep FDTD](https://github.com/NanoComp/meep)
       - [meep ipkiss integration](https://github.com/luceda/ipkiss_meep_integration)
       - [meep docker image](https://hub.docker.com/r/mochen4/meepdocker) [code](https://github.com/mochen4/meepdocker)
+      - [grating coupler example](https://github.com/simbilod/grating_coupler_meep)
     - [emopt FDTD](https://github.com/anstmichaels/emopt)
     - [Python 3D FDTD simulator](https://github.com/flaport/fdtd)
   - FDFD

@@ -8,26 +8,33 @@ Most tools in this list are written or have a python interface, which require so
 - [gdspy based tools](https://github.com/heitzmann/gdspy)
   - gdsfactory [docs](https://gdsfactory.readthedocs.io/en/latest/) [code](https://github.com/gdsfactory/gdsfactory)
   - [phidl](https://github.com/amccaugh/phidl)
-  - [dphox](https://github.com/solgaardlab/dphox)
+    - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
   - [picwriter](https://github.com/DerekK88/PICwriter)
-  - [gdshelpers](https://github.com/HelgeGehring/gdshelpers)
-  - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
+- [gdstk](https://github.com/heitzmann/gdstk)
 - [klayout](https://github.com/KLayout/klayout)
   - [xsection, klayout-ipc, klayout-gadgets, lytest, lymask](https://github.com/atait?tab=repositories)
   - [zero-pdk](https://github.com/lightwave-lab/zeropdk)
+  - [KQcircuits](https://github.com/iqm-finland/KQCircuits)
   - [siepic-tools](https://github.com/lukasc-ubc/SiEPIC-Tools)
   - [siepic-ebeam-pdk](https://github.com/lukasc-ubc/SiEPIC_EBeam_PDK)
   - [gds3xtrude](https://codeberg.org/tok)
   - [spicex: netlist extraction](https://github.com/fsitok/spicex)
   - [simplify polygons](https://github.com/fsitok/klayout-simplify)
+- [shapely based tools]
+  - [gdshelpers](https://github.com/HelgeGehring/gdshelpers)
+  - [dphox](https://github.com/solgaardlab/dphox)
 - [masque](https://mpxd.net/code/jan/masque)
 - [klamath](https://mpxd.net/code/jan/klamath)
-- [epda](https://openepda.org)
 - [nazca](https://nazca-design.org/download/)
 - Technology Specific:
+
   - [Ayar cell generator](https://github.com/AyarLabs/ACG)
   - [BerkeleyPhotonicsGenerator](https://github.com/BerkeleyPhotonicsGenerator/BPG)
   - [qiskit-metal](https://github.com/Qiskit/qiskit-metal)
+
+- layout viewers
+  - [GDS3D](https://github.com/trilomix/GDS3D/)
+  - [GDS2WebGL](https://github.com/s-holst/GDS2WebGL)
 
 ## Simulation: simulate how photons propagate, and optimize the geometrical shapes
 
@@ -45,7 +52,6 @@ Most tools in this list are written or have a python interface, which require so
 
 - component design:
 
-  - [simphox](https://github.com/fancompute/simphox)
   - FDTD
     - [meep FDTD](https://github.com/NanoComp/meep)
       - [meep ipkiss integration](https://github.com/luceda/ipkiss_meep_integration)
@@ -76,8 +82,9 @@ Most tools in this list are written or have a python interface, which require so
     - [rayopt](https://github.com/quartiq/rayopt)
   - adaptive optics
     - [AOtools](https://github.com/AOtools)
+  - [simphox](https://github.com/fancompute/simphox)
 
-- circuit simulator:
+- circuit simulation:
 
   - [gdslib](https://gdslib.readthedocs.io/en/latest/)
   - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
@@ -116,8 +123,6 @@ Most tools in this list are written or have a python interface, which require so
 - pandas
 - dask
 
-
-
 # Electronics
 
 - schematic capture:
@@ -154,3 +159,4 @@ For Silicon Photonics design you need different tools:
 - https://git.shivering-isles.com/shivering-isles/infrastructure
 - https://github.com/awesome-selfhosted/awesome-selfhosted
 - https://git.cloudron.io/cloudron
+- [epda](https://openepda.org)

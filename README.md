@@ -105,7 +105,12 @@ Most tools in this list are written or have a python interface, which require so
 
 ## Control instruments in the lab
 
-[PyVISA](https://pyvisa.readthedocs.io/en/latest/) allows you to control the lab instruments with python. As the backend you can use NI or [PyVISA-py](https://pyvisa-py.readthedocs.io/en/latest/)
+backend:
+
+- [PyVISA](https://pyvisa.readthedocs.io/en/latest/) allows you to control the lab instruments with python. As the backend you can use NI or [PyVISA-py](https://pyvisa-py.readthedocs.io/en/latest/)
+- [PySerial](https://github.com/pyserial/pyserial) is a great way to issue simple serial commands (RS-232, RS485) to instruments (and read data)
+
+repos:
 
 - lightlab [repo](https://github.com/lightwave-lab/lightlab) [docs](https://lightlab.readthedocs.io/en/latest/index.html)
 - [pyrolab](https://github.com/BYUCamachoLab/pyrolab)

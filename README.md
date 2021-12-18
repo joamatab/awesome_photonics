@@ -74,6 +74,7 @@ Most tools in this list are written or have a python interface, which require so
     - [wavetorch](https://github.com/fancompute/wavetorch)
     - [lumopt](https://github.com/chriskeraly/lumopt)
     - [angler](https://github.com/fancompute/angler/) Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices
+    - SPLayout [code](https://github.com/Hideousmon/SPLayout) [docs](https://splayout.readthedocs.io/en/latest/index.html)
   - TCAD
     - [devsim](https://devsim.org/)
     - [BOSIM](https://eexu.home.ece.ust.hk/BOSIM.html)
@@ -93,6 +94,7 @@ Most tools in this list are written or have a python interface, which require so
   - [opics](https://github.com/siepic/opics)
   - [SignalIntegrity (linear circuit simulation)](https://github.com/TeledyneLeCroy/SignalIntegrity)
   - [scikit-rf RF simulator](https://scikit-rf.readthedocs.io/en/latest/)
+  - pyFDA filter design [code](https://github.com/chipmuenk/pyfda) and [docs](https://pyfda.readthedocs.io/en/latest/manual/input_specs.html)
 
 - material database
 

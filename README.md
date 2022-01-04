@@ -20,6 +20,7 @@ Most tools in this list are written or have a python interface, which require so
   - [gds3xtrude](https://codeberg.org/tok)
   - [spicex: netlist extraction](https://github.com/fsitok/spicex)
   - [simplify polygons](https://github.com/fsitok/klayout-simplify)
+  - [klayout python](https://github.com/shamil777/KLayout-python)
 - [shapely based tools]
   - [gdshelpers](https://github.com/HelgeGehring/gdshelpers)
   - [dphox](https://github.com/solgaardlab/dphox)

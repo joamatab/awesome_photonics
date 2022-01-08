@@ -79,6 +79,7 @@ Most tools in this list are written or have a python interface, which require so
   - TCAD
     - [devsim](https://devsim.org/)
     - [BOSIM](https://eexu.home.ece.ust.hk/BOSIM.html)
+    - [TCAD docker containers](https://github.com/thesourcerer8/OpenSourceTCAD)
   - ray tracing:
     - [ray tracing](https://github.com/DCC-Lab/RayTracing)
     - [rayopt](https://github.com/quartiq/rayopt)
@@ -144,18 +145,6 @@ repos:
   - [pyspice](https://github.com/FabriceSalvaire/PySpice)
   - [Spice book](https://github.com/PyLCARS/Python-and-SPICE-Book)
 
-## Tools For PIC development
-
-For Silicon Photonics design you need different tools:
-
-| Purpose                               | Tool                                                                                                                                       |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Layout generator                      | [gdsfactory](https://gdsfactory.readthedocs.io/en/latest/)                                                                                 |
-| Layout viewer                         | [klayout](https://www.klayout.de/)                                                                                                         |
-| Mode solver                           | [Modes](https://modes.readthedocs.io/en/latest/) and [MPB](https://mpb.readthedocs.io/en/latest/Python_Tutorial/#our-first-band-structure) |
-| FDTD                                  | [Meep](https://meep.readthedocs.io/en/latest/Installation/)                                                                                |
-| Frequency domain circuit simulator    | [gdslib](https://gdslib.readthedocs.io/en/latest/)                                                                                         |
-| lab measurements (instrument control) | [lightlab](https://lightlab.readthedocs.io/en/latest/index.html)                                                                           |
 
 ## Other links
 

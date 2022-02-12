@@ -1,6 +1,6 @@
 # Photonic open source projects
 
-If you are new to Git and Python I reccommend reading this [article](https://lightlab.readthedocs.io/en/latest/_static/gettingStarted/index.html)
+If you are new to Git and Python I recommend reading this [article](https://lightlab.readthedocs.io/en/latest/_static/gettingStarted/index.html)
 Most tools in this list are written or have a python interface, which require some basic knowledge of python. If you are new to python you can find many [books](https://jakevdp.github.io/PythonDataScienceHandbook/index.html), [youTube videos](https://www.youtube.com/c/anthonywritescode) and [courses](https://github.com/joamatab/practical-python) available online.
 
 ## Layout: define the geometrical shapes that guide the light.
@@ -60,6 +60,7 @@ Most tools in this list are written or have a python interface, which require so
       - [grating coupler example](https://github.com/simbilod/grating_coupler_meep)
     - [emopt FDTD](https://github.com/anstmichaels/emopt)
     - [Python 3D FDTD simulator](https://github.com/flaport/fdtd)
+    - tidy3d client [docs](https://docs.simulation.cloud/projects/tidy3d/en/latest/) and [code](https://github.com/flexcompute/tidy3d). Server is propietary.
   - FDFD
     - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
     - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)
@@ -89,9 +90,9 @@ Most tools in this list are written or have a python interface, which require so
 
 - circuit simulation:
 
-  - [gdslib](https://gdslib.readthedocs.io/en/latest/)
+  - SAX [code](https://github.com/flaport/sax) and [docs](https://flaport.github.io/sax/)
   - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
-  - [sax](https://github.com/flaport/sax)
+  - [gdslib](https://gdslib.readthedocs.io/en/latest/)
   - [photontorch](https://docs.photontorch.com/) [code](https://github.com/flaport/photontorch)
   - [opics](https://github.com/siepic/opics)
   - [SignalIntegrity (linear circuit simulation)](https://github.com/TeledyneLeCroy/SignalIntegrity)
@@ -121,7 +122,7 @@ repos:
 - [instrumental](https://github.com/mabuchilab/Instrumental)
 - [pymeasure](https://github.com/ralph-group/pymeasure)
 - LabEXT [docs](https://labext.readthedocs.io/en/latest/) and [code](https://github.com/LabExT/LabExT)
-- [testing framework template](https://github.com/google/openhtf)
+- [hardware testing framework](https://github.com/google/openhtf)
 - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
 - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab)
 - [ubc automated pic-tester](https://github.com/lukasc-ubc/pyOptomip)
@@ -141,9 +142,12 @@ repos:
   - [kicad PCB layout python](https://github.com/atait/kicad-python)
   - [VLSI placement](https://github.com/limbo018/DREAMPlace)
 - circuit simulation
+
   - [lcapy](https://github.com/mph-/lcapy) linear circuit analysis
   - [pyspice](https://github.com/FabriceSalvaire/PySpice)
   - [Spice book](https://github.com/PyLCARS/Python-and-SPICE-Book)
+
+- open source pdks -[skywater-pdk](https://github.com/google/skywater-pdk)
 
 
 ## Other links

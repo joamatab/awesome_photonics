@@ -1,7 +1,7 @@
-# Photonic open source projects
+# Awesome Photonics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-If you are new to Git and Python I recommend reading this [article](https://lightlab.readthedocs.io/en/latest/_static/gettingStarted/index.html)
 Most tools in this list are written or have a python interface, which require some basic knowledge of python. If you are new to python you can find many [books](https://jakevdp.github.io/PythonDataScienceHandbook/index.html), [youTube videos](https://www.youtube.com/c/anthonywritescode) and [courses](https://github.com/joamatab/practical-python) available online.
+If you are new to Git and Python I recommend reading this [article](https://lightlab.readthedocs.io/en/latest/_static/gettingStarted/index.html)
 
 ## Layout: define the geometrical shapes that guide the light.
 
@@ -161,3 +161,5 @@ repos:
 - https://github.com/awesome-selfhosted/awesome-selfhosted
 - https://git.cloudron.io/cloudron
 - [epda](https://openepda.org)
+- [Awesome quantum](https://github.com/qosf/awesome-quantum-software)
+- [Awesome electronics](https://github.com/kitspace/awesome-electronics)

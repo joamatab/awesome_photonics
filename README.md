@@ -163,3 +163,4 @@ repos:
 - [epda](https://openepda.org)
 - [Awesome quantum](https://github.com/qosf/awesome-quantum-software)
 - [Awesome electronics](https://github.com/kitspace/awesome-electronics)
+- [Awesome lists](https://github.com/sindresorhus/awesome)

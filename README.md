@@ -21,15 +21,15 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 ## layout
 
 - [gdspy based tools](https://github.com/heitzmann/gdspy)
-  - gdsfactory [docs](https://gdsfactory.readthedocs.io/en/latest/) [code](https://github.com/gdsfactory/gdsfactory)
+  - gdsfactory [docs](https://gdsfactory.readthedocs.io/en/latest/) [code](https://github.com/gdsfactory/gdsfactory) - includes plugins to many other tools.
   - [phidl](https://github.com/amccaugh/phidl)
     - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
   - [picwriter](https://github.com/DerekK88/PICwriter)
 - [gdstk](https://github.com/heitzmann/gdstk)
 - [klayout](https://github.com/KLayout/klayout)
   - [xsection, klayout-ipc, klayout-gadgets, lytest, lymask](https://github.com/atait?tab=repositories)
-  - [zero-pdk](https://github.com/lightwave-lab/zeropdk)
-  - [KQcircuits](https://github.com/iqm-finland/KQCircuits)
+  - [zero-pdk](https://github.com/lightwave-lab/zeropdk) - klayout pure python pdk.
+  - [KQcircuits](https://github.com/iqm-finland/KQCircuits) - Quantum circuits pdk.
   - [siepic-tools](https://github.com/lukasc-ubc/SiEPIC-Tools)
   - [siepic-ebeam-pdk](https://github.com/lukasc-ubc/SiEPIC_EBeam_PDK)
   - [gds3xtrude](https://codeberg.org/tok)
@@ -46,9 +46,10 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
   - [Ayar cell generator](https://github.com/AyarLabs/ACG)
   - [BerkeleyPhotonicsGenerator](https://github.com/BerkeleyPhotonicsGenerator/BPG)
-  - [qiskit-metal](https://github.com/Qiskit/qiskit-metal)
+  - [qiskit-metal](https://github.com/Qiskit/qiskit-metal) - IBM superconducting based qubits.
 
 - layout viewers
+  - [klayout](https://www.klayout.de/) - Best open source layout viewer.
   - [GDS3D](https://github.com/trilomix/GDS3D/)
   - [GDS2WebGL](https://github.com/s-holst/GDS2WebGL)
 
@@ -67,19 +68,19 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 - component design:
 
-  - FDTD
+  - FDTD - Finite differences time domain.
     - [meep FDTD](https://github.com/NanoComp/meep)
       - [meep ipkiss integration](https://github.com/luceda/ipkiss_meep_integration)
       - [meep docker image](https://hub.docker.com/r/mochen4/meepdocker) - [code](https://github.com/mochen4/meepdocker)
       - [grating coupler example](https://github.com/simbilod/grating_coupler_meep)
     - [emopt FDTD](https://github.com/anstmichaels/emopt)
-    - [Python 3D FDTD simulator](https://github.com/flaport/fdtd)
+    - [Python 3D FDTD simulator](https://github.com/flaport/fdtd) - Written in PyTorch.
     - tidy3d client [docs](https://docs.simulation.cloud/projects/tidy3d/en/latest/) and [code](https://github.com/flexcompute/tidy3d) - Server is propietary.
-  - FDFD
+  - FDFD - Finite differences frequency domain.
     - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
     - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)
     - [jaxwell](https://github.com/stanfordnqp/jaxwell)
-  - EME
+  - EME - Eigen mode expansion.
     - [emepy](https://github.com/BYUCamachoLab/emepy)
     - [CAMFR](https://github.com/demisjohn/CAMFR)
   - RCWA:
@@ -104,7 +105,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 - circuit simulation:
 
-  - SAX [code](https://github.com/flaport/sax) and [docs](https://flaport.github.io/sax/)
+  - SAX [code](https://github.com/flaport/sax) and [docs](https://flaport.github.io/sax/) - Differentiable circuit solver.
   - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
   - [photontorch docs](https://docs.photontorch.com/) - [code](https://github.com/flaport/photontorch) - Includes time domain.
   - [opics](https://github.com/siepic/opics)
@@ -149,7 +150,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 - schematic capture:
   - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)
-  - javscript schematic editor [code](https://github.com/kieler/elkjs) [demo](https://rtsys.informatik.uni-kiel.de/elklive/elkgraph.html)
+  - elkjs [code](https://github.com/kieler/elkjs) [demo](https://rtsys.informatik.uni-kiel.de/elklive/elkgraph.html) - Javascript schematic editor.
 - layout
 
   - [kicad PCB layout python](https://github.com/atait/kicad-python)

@@ -1,15 +1,21 @@
 # Awesome Photonics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+> A curated list of awesome resource for photonic engineers, physicists and hobbyists
+
 Most tools in this list are written or have a python interface, which require some basic knowledge of python. If you are new to python you can find many [books](https://jakevdp.github.io/PythonDataScienceHandbook/index.html), [YouTube videos](https://www.youtube.com/c/anthonywritescode) and [courses](https://github.com/joamatab/practical-python) available online.
 If you are new to Git and Python I recommend reading this [article](https://lightlab.readthedocs.io/en/latest/_static/gettingStarted/index.html)
 
 ## Contents
+
+<!-- toc -->
 
 - [layout](#layout): define the geometrical shapes that guide the light.
 - [simulation](#simulation): simulate how photons propagate, and optimize the geometrical shapes
 - [lab automation](#lab-automation): Control instruments in the lab
 - [data analysis](#data-analysis)
 - [electronics](#electronics)
+
+<!-- tocstop -->
 
 ## layout
 
@@ -118,20 +124,20 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 - backend:
 
-    - [PyVISA](https://pyvisa.readthedocs.io/en/latest/) - Allows you to control the lab instruments with python. As the backend you can use NI or [PyVISA-py](https://pyvisa-py.readthedocs.io/en/latest/).
-    - [PySerial](https://github.com/pyserial/pyserial) - Issue simple serial commands (RS-232, RS485) to instruments (and read data).
+  - [PyVISA](https://pyvisa.readthedocs.io/en/latest/) - Allows you to control the lab instruments with python. As the backend you can use NI or [PyVISA-py](https://pyvisa-py.readthedocs.io/en/latest/).
+  - [PySerial](https://github.com/pyserial/pyserial) - Issue simple serial commands (RS-232, RS485) to instruments (and read data).
 
 - repos:
-    - lightlab [repo](https://github.com/lightwave-lab/lightlab) [docs](https://lightlab.readthedocs.io/en/latest/index.html)
-    - [pyrolab](https://github.com/BYUCamachoLab/pyrolab)
-    - [instrumental](https://github.com/mabuchilab/Instrumental)
-    - [pymeasure](https://github.com/ralph-group/pymeasure)
-    - LabEXT [docs](https://labext.readthedocs.io/en/latest/) and [code](https://github.com/LabExT/LabExT)
-    - [hardware testing framework](https://github.com/google/openhtf)
-    - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
-    - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab)
-    - [ubc automated pic-tester](https://github.com/lukasc-ubc/pyOptomip)
-    - [labrad](https://github.com/labrad/pylabrad)
+  - lightlab [repo](https://github.com/lightwave-lab/lightlab) [docs](https://lightlab.readthedocs.io/en/latest/index.html)
+  - [pyrolab](https://github.com/BYUCamachoLab/pyrolab)
+  - [instrumental](https://github.com/mabuchilab/Instrumental)
+  - [pymeasure](https://github.com/ralph-group/pymeasure)
+  - LabEXT [docs](https://labext.readthedocs.io/en/latest/) and [code](https://github.com/LabExT/LabExT)
+  - [hardware testing framework](https://github.com/google/openhtf)
+  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
+  - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab)
+  - [ubc automated pic-tester](https://github.com/lukasc-ubc/pyOptomip)
+  - [labrad](https://github.com/labrad/pylabrad)
 
 ## Data analysis
 
@@ -144,6 +150,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)
   - javscript schematic editor [code](https://github.com/kieler/elkjs) [demo](https://rtsys.informatik.uni-kiel.de/elklive/elkgraph.html)
 - layout
+
   - [kicad PCB layout python](https://github.com/atait/kicad-python)
   - [VLSI placement](https://github.com/limbo018/DREAMPlace)
 

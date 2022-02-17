@@ -14,6 +14,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - [lab automation](#lab-automation): Control instruments in the lab
 - [data analysis](#data-analysis)
 - [electronics](#electronics)
+- [other links](#other-links)
 
 <!-- tocstop -->
 
@@ -139,12 +140,12 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [ubc automated pic-tester](https://github.com/lukasc-ubc/pyOptomip)
   - [labrad](https://github.com/labrad/pylabrad)
 
-## Data analysis
+## data analysis
 
 - pandas
 - dask
 
-## Electronics
+## electronics
 
 - schematic capture:
   - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)
@@ -164,7 +165,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
   - [skywater-pdk](https://github.com/google/skywater-pdk)
 
-## Other links
+## other links
 
 - [princeton notebooks](https://github.com/simbilod/ELE559-simulations)
 - https://hackmd.io/@joamatab/rJngxJudr#/

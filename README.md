@@ -21,24 +21,24 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 ## layout
 
 - [gdspy based tools](https://github.com/heitzmann/gdspy)
-  - gdsfactory [docs](https://gdsfactory.readthedocs.io/en/latest/) [code](https://github.com/gdsfactory/gdsfactory) - includes plugins to many other tools.
-  - [phidl](https://github.com/amccaugh/phidl)
+  - gdsfactory [docs](https://gdsfactory.readthedocs.io/en/latest/) [code](https://github.com/gdsfactory/gdsfactory) - includes plugins to other tools.
+  - [phidl](https://github.com/amccaugh/phidl) - made for superconducting detectors
     - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
   - [picwriter](https://github.com/DerekK88/PICwriter)
-- [gdstk](https://github.com/heitzmann/gdstk)
-- [klayout](https://github.com/KLayout/klayout)
+- [gdstk](https://github.com/heitzmann/gdstk) - from gdspy author, made it faster
+- [klayout](https://github.com/KLayout/klayout) - layout viewer with python API
   - [xsection, klayout-ipc, klayout-gadgets, lytest, lymask](https://github.com/atait?tab=repositories)
   - [zero-pdk](https://github.com/lightwave-lab/zeropdk) - klayout pure python pdk.
   - [KQcircuits](https://github.com/iqm-finland/KQCircuits) - Quantum circuits pdk.
-  - [siepic-tools](https://github.com/lukasc-ubc/SiEPIC-Tools)
+  - [siepic-tools](https://github.com/lukasc-ubc/SiEPIC-Tools) - code driven PCells and GUI driven layouts.
   - [siepic-ebeam-pdk](https://github.com/lukasc-ubc/SiEPIC_EBeam_PDK)
   - [gds3xtrude](https://codeberg.org/tok)
   - [spicex: netlist extraction](https://github.com/fsitok/spicex)
   - [simplify polygons](https://github.com/fsitok/klayout-simplify)
   - [klayout python](https://github.com/shamil777/KLayout-python)
 - shapely based tools
-  - [gdshelpers](https://github.com/HelgeGehring/gdshelpers)
-  - [dphox](https://github.com/solgaardlab/dphox)
+  - [gdshelpers](https://github.com/HelgeGehring/gdshelpers) - includes superconducting detectors.
+  - [dphox](https://github.com/solgaardlab/dphox) - includes 3D MEMs structures
 - [masque](https://mpxd.net/code/jan/masque)
 - [klamath](https://mpxd.net/code/jan/klamath)
 - [nazca](https://nazca-design.org/download/)
@@ -64,7 +64,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [pymode](https://github.com/smartalecH/pyMode) - Allows bends.
       - [wgms3d](http://www.soundtracker.org/raw/wgms3d/)
     - [pyMWM](https://github.com/mnishida/PyMWM)
-    - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/) - Block mode solver.
+    - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/) - Bloch mode solver.
 
 - component design:
 

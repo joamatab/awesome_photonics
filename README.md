@@ -1,5 +1,7 @@
 # Awesome Photonics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+charon, devsin, tcad san dia
+
 > A curated list of awesome resource for photonic engineers, physicists and hobbyists
 
 Most tools in this list are written or have a python interface, which require some basic knowledge of python. If you are new to python you can find many [books](https://jakevdp.github.io/PythonDataScienceHandbook/index.html), [YouTube videos](https://www.youtube.com/c/anthonywritescode) and [courses](https://github.com/joamatab/practical-python) available online.
@@ -92,9 +94,11 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [lumopt](https://github.com/chriskeraly/lumopt)
     - [angler](https://github.com/fancompute/angler/) - Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices.
     - SPLayout [code](https://github.com/Hideousmon/SPLayout) [docs](https://splayout.readthedocs.io/en/latest/index.html)
-  - TCAD
-    - [devsim](https://devsim.org/)
+  - [TCAD](https://tcadcentral.com/Software.html#open-source-tcad-software)
+    - [devsim](https://devsim.org/) - Semiconductor Device Simulator
     - [BOSIM](https://eexu.home.ece.ust.hk/BOSIM.html)
+    - [Suprem4](https://github.com/cogenda/Suprem4) - Process simulator (no python)
+    - [pisces](https://github.com/ComputerWhisperer/pisces) - Poison and continuity equation solver (no python)
     - [TCAD docker containers](https://github.com/thesourcerer8/OpenSourceTCAD)
   - ray tracing:
     - [ray tracing](https://github.com/DCC-Lab/RayTracing)
@@ -129,17 +133,18 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [PyVISA](https://pyvisa.readthedocs.io/en/latest/) - Allows you to control the lab instruments with python. As the backend you can use NI or [PyVISA-py](https://pyvisa-py.readthedocs.io/en/latest/).
   - [PySerial](https://github.com/pyserial/pyserial) - Issue simple serial commands (RS-232, RS485) to instruments (and read data).
 
-- repos:
+- lab automation repos:
   - lightlab [repo](https://github.com/lightwave-lab/lightlab) [docs](https://lightlab.readthedocs.io/en/latest/index.html)
-  - [pyrolab](https://github.com/BYUCamachoLab/pyrolab)
   - [instrumental](https://github.com/mabuchilab/Instrumental)
   - [pymeasure](https://github.com/ralph-group/pymeasure)
+  - [pyrolab](https://github.com/BYUCamachoLab/pyrolab)
   - LabEXT [docs](https://labext.readthedocs.io/en/latest/) and [code](https://github.com/LabExT/LabExT)
-  - [hardware testing framework](https://github.com/google/openhtf)
-  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
-  - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab)
+  - [hardware testing framework](https://github.com/google/openhtf) - Google
+  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem) - MIT
+  - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab) 
   - [ubc automated pic-tester](https://github.com/lukasc-ubc/pyOptomip)
   - [labrad](https://github.com/labrad/pylabrad)
+  - [autogator](https://github.com/BYUCamachoLab/autogator) - camera-assisted motion control and experiment configuration of photonic integrated circuit interrogation platforms.
 
 ## data analysis
 

@@ -1,7 +1,5 @@
 # Awesome Photonics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-charon, devsin, tcad san dia
-
 > A curated list of awesome resource for photonic engineers, physicists and hobbyists
 
 Most tools in this list are written or have a python interface, which require some basic knowledge of python. If you are new to python you can find many [books](https://jakevdp.github.io/PythonDataScienceHandbook/index.html), [YouTube videos](https://www.youtube.com/c/anthonywritescode) and [courses](https://github.com/joamatab/practical-python) available online.
@@ -101,6 +99,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [Suprem4](https://github.com/cogenda/Suprem4) - Process simulator (no python)
     - [pisces](https://github.com/ComputerWhisperer/pisces) - Poison and continuity equation solver (no python)
     - [TCAD docker containers](https://github.com/thesourcerer8/OpenSourceTCAD)
+    - [Charon](https://charon.sandia.gov/) - Paralell TCAD simulator.
   - ray tracing:
     - [ray tracing](https://github.com/DCC-Lab/RayTracing)
     - [rayopt](https://github.com/quartiq/rayopt)
@@ -117,6 +116,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [SignalIntegrity (linear circuit simulation)](https://github.com/TeledyneLeCroy/SignalIntegrity)
   - [scikit-rf RF simulator](https://scikit-rf.readthedocs.io/en/latest/)
   - pyFDA filter design [code](https://github.com/chipmuenk/pyfda) and [docs](https://pyfda.readthedocs.io/en/latest/manual/input_specs.html)
+  - [Xyce](https://xyce.sandia.gov/) - open source, SPICE-compatible, high-performance analog circuit simulator.
 
 - material database
 

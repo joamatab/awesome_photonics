@@ -38,6 +38,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [spicex: netlist extraction](https://github.com/fsitok/spicex)
   - [simplify polygons](https://github.com/fsitok/klayout-simplify)
   - [klayout python](https://github.com/shamil777/KLayout-python)
+  - [klayout cross-section in python](https://github.com/dimapu/klayout_pyxs) - Port from ruby to python to xsection macro
 - shapely based tools
   - [gdshelpers](https://github.com/HelgeGehring/gdshelpers) - includes superconducting detectors.
   - [dphox](https://github.com/solgaardlab/dphox) - includes 3D MEMs structures

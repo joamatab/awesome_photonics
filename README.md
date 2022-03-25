@@ -155,7 +155,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 ## electronics
 
 - schematic capture:
-  - [skidl: netlist formatting, writing, and reading](https://xesscorp.github.io/skidl/docs/_site/)
+  - [skidl: netlist formatting, writing, and reading](https://github.com/devbisme/skidl)
   - elkjs [code](https://github.com/kieler/elkjs) [demo](https://rtsys.informatik.uni-kiel.de/elklive/elkgraph.html) - Javascript schematic editor.
 - layout
 

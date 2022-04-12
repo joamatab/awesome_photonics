@@ -77,6 +77,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [emopt FDTD](https://github.com/anstmichaels/emopt)
     - [Python 3D FDTD simulator](https://github.com/flaport/fdtd) - Written in PyTorch.
     - tidy3d client [docs](https://docs.simulation.cloud/projects/tidy3d/en/latest/) and [code](https://github.com/flexcompute/tidy3d) - Server is propietary.
+    - [GSvit](http://gsvit.net/) - GPU support
   - FDFD - Finite differences frequency domain.
     - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
     - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)

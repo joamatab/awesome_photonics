@@ -94,6 +94,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [lumopt](https://github.com/chriskeraly/lumopt)
     - [angler](https://github.com/fancompute/angler/) - Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices.
     - SPLayout [code](https://github.com/Hideousmon/SPLayout) [docs](https://splayout.readthedocs.io/en/latest/index.html)
+    - ceviche-challenges [code](https://github.com/google/ceviche-challenges) - Photonic inverse designs based on the FDFD simulator Ceviche
   - [TCAD](https://tcadcentral.com/Software.html#open-source-tcad-software)
     - [devsim](https://devsim.org/) - Semiconductor Device Simulator
     - [BOSIM](https://eexu.home.ece.ust.hk/BOSIM.html)

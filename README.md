@@ -26,6 +26,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
   - [picwriter](https://github.com/DerekK88/PICwriter)
 - [gdstk](https://github.com/heitzmann/gdstk) - from gdspy author, made it faster
+  - [pyphotonics](https://github.com/rohanku/pyphotonics)
 - [klayout](https://github.com/KLayout/klayout) - layout viewer with python API
   - [xsection, klayout-ipc, klayout-gadgets, lytest, lymask](https://github.com/atait?tab=repositories)
   - [zero-pdk](https://github.com/lightwave-lab/zeropdk) - klayout pure python pdk.
@@ -93,13 +94,13 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [lumopt](https://github.com/chriskeraly/lumopt)
     - [angler](https://github.com/fancompute/angler/) - Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices.
     - SPLayout [code](https://github.com/Hideousmon/SPLayout) [docs](https://splayout.readthedocs.io/en/latest/index.html)
-  - [TCAD](https://tcadcentral.com/Software.html#open-source-tcad-software)
+  - [TCAD](https://tcadcentral.com/Software.html#open-source-tcad-software) [tcad repos](https://github.com/thesourcerer8/OpenSourceTCAD) [TCAD Overview spreadsheet here](https://docs.google.com/spreadsheets/d/1dK1GxGl1C7v3rhWKw3RcbeZsRre66HPAOPFbgYni74A/edit?pli=1#gid=0)
     - [devsim](https://devsim.org/) - Semiconductor Device Simulator
     - [BOSIM](https://eexu.home.ece.ust.hk/BOSIM.html)
     - [Suprem4](https://github.com/cogenda/Suprem4) - Process simulator (no python)
     - [pisces](https://github.com/ComputerWhisperer/pisces) - Poison and continuity equation solver (no python)
     - [TCAD docker containers](https://github.com/thesourcerer8/OpenSourceTCAD)
-    - [Charon](https://charon.sandia.gov/) - Paralell TCAD simulator.
+    - [Charon](https://charon.sandia.gov/) - Paralell TCAD simulator. [GitHub mirror](https://github.com/tcadsoftware/charon)
   - ray tracing:
     - [ray tracing](https://github.com/DCC-Lab/RayTracing)
     - [rayopt](https://github.com/quartiq/rayopt)
@@ -127,6 +128,12 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [notebooks](https://github.com/pierremifasol/Lithography-Simulation)
   - [dimmilitho](https://github.com/vincentlv/DimmiLitho)
 
+
+## verification
+
+- parasitic extraction
+    - [speedsterpy](https://github.com/das-dias/speedsterpy)
+
 ## lab automation
 
 - backend:
@@ -151,6 +158,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 - pandas
 - dask
+- [wafermap](https://github.com/xlhaw/wfmap)
 
 ## electronics
 

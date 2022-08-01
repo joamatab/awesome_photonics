@@ -78,6 +78,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [emopt FDTD](https://github.com/anstmichaels/emopt)
     - [Python 3D FDTD simulator](https://github.com/flaport/fdtd) - Written in PyTorch.
     - tidy3d client [docs](https://docs.simulation.cloud/projects/tidy3d/en/latest/) and [code](https://github.com/flexcompute/tidy3d) - Server is propietary.
+    - [GSvit](http://gsvit.net/) - GPU support
   - FDFD - Finite differences frequency domain.
     - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
     - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)
@@ -87,6 +88,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [CAMFR](https://github.com/demisjohn/CAMFR)
   - RCWA:
     - [S4](https://github.com/victorliu/S4)
+    - [grcwa](https://github.com/weiliangjinca/grcwa) - automatic differentiation included with autograd
   - [SiPANN (neural networks for photonics component design)](https://github.com/contagon/SiPANN)
   - [inverse design](http://metanet.stanford.edu/code/)
     - [glonet: global optimization based on generative neural networks](https://github.com/jonfanlab/GLOnet)
@@ -94,6 +96,8 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [lumopt](https://github.com/chriskeraly/lumopt)
     - [angler](https://github.com/fancompute/angler/) - Frequency-domain photonic simulation and inverse design optimization for linear and nonlinear devices.
     - SPLayout [code](https://github.com/Hideousmon/SPLayout) [docs](https://splayout.readthedocs.io/en/latest/index.html)
+    - ceviche-challenges [code](https://github.com/google/ceviche-challenges) - Photonic inverse designs based on the FDFD simulator Ceviche
+    - [NIDN](https://github.com/esa/NIDN) - Inverse design of metamaterials, photonic crystals, ... using PyTorch
   - [TCAD](https://tcadcentral.com/Software.html#open-source-tcad-software) [tcad repos](https://github.com/thesourcerer8/OpenSourceTCAD) [TCAD Overview spreadsheet here](https://docs.google.com/spreadsheets/d/1dK1GxGl1C7v3rhWKw3RcbeZsRre66HPAOPFbgYni74A/edit?pli=1#gid=0)
     - [devsim](https://devsim.org/) - Semiconductor Device Simulator
     - [BOSIM](https://eexu.home.ece.ust.hk/BOSIM.html)
@@ -106,7 +110,8 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [rayopt](https://github.com/quartiq/rayopt)
   - adaptive optics
     - [AOtools](https://github.com/AOtools)
-  - [simphox](https://github.com/fancompute/simphox)
+  - multisolvers
+    - [simphox (FDTD, beamPropagation, circuit simulation)](https://github.com/fancompute/simphox)
 
 - circuit simulation:
 

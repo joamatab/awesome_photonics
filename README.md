@@ -132,6 +132,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [optolithium](https://github.com/xthebat/optolithium)
   - [notebooks](https://github.com/pierremifasol/Lithography-Simulation)
   - [dimmilitho](https://github.com/vincentlv/DimmiLitho)
+  - [keras based litho model](https://github.com/Dusandinho/PreFab.git)
 
 
 ## verification

@@ -112,6 +112,8 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [AOtools](https://github.com/AOtools)
   - multisolvers
     - [simphox (FDTD, beamPropagation, circuit simulation)](https://github.com/fancompute/simphox)
+  - transfer matrix
+    - [TMM](https://github.com/sbyrnes321/tmm)
 
 - circuit simulation:
 

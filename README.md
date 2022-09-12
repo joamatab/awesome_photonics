@@ -13,6 +13,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - [simulation](#simulation): simulate how photons propagate, and optimize the geometrical shapes
 - [lab automation](#lab-automation): Control instruments in the lab
 - [data analysis](#data-analysis)
+- [visualization](#visualizatio)
 - [electronics](#electronics)
 - [other links](#other-links)
 
@@ -167,6 +168,14 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - pandas
 - dask
 - [wafermap](https://github.com/xlhaw/wfmap)
+
+
+## Visualization
+
+- [Klayout](https://www.klayout.de/) for GDS files
+- [Meshlab](https://github.com/cnr-isti-vclab/meshlab) for STL
+- [ParaView](https://www.paraview.org/) for data visualization
+
 
 ## electronics
 

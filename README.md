@@ -168,6 +168,11 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - pandas
 - dask
 - [wafermap](https://github.com/xlhaw/wfmap)
+- [wafer data](https://github.com/guanghaofan/wafermap)
+- Webapp
+    - [voila][https://github.com/voila-dashboards/voila]
+    - [streamlit](https://github.com/streamlit/streamlit)
+    - [plotly dash](https://dash.plotly.com/)
 
 
 ## Visualization

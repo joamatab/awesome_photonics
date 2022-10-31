@@ -211,4 +211,5 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - [epda](https://openepda.org)
 - [Awesome quantum](https://github.com/qosf/awesome-quantum-software)
 - [Awesome electronics](https://github.com/kitspace/awesome-electronics)
+- [Awesome scientific computing](https://github.com/nschloe/awesome-scientific-computing)
 - [Awesome lists](https://github.com/sindresorhus/awesome)

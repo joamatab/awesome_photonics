@@ -118,14 +118,18 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 - circuit simulation:
 
-  - SAX [code](https://github.com/flaport/sax) and [docs](https://flaport.github.io/sax/) - Differentiable circuit solver.
-  - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
-  - [photontorch docs](https://docs.photontorch.com/) - [code](https://github.com/flaport/photontorch) - Includes time domain.
-  - [opics](https://github.com/siepic/opics)
-  - [SignalIntegrity (linear circuit simulation)](https://github.com/TeledyneLeCroy/SignalIntegrity)
-  - [scikit-rf RF simulator](https://scikit-rf.readthedocs.io/en/latest/)
+  - Sparameter linear solvers
+      * SAX [code](https://github.com/flaport/sax) and [docs](https://flaport.github.io/sax/) - Differentiable circuit solver.
+      * [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
+      * [photontorch docs](https://docs.photontorch.com/) - [code](https://github.com/flaport/photontorch) - Includes time domain.
+      * [opics](https://github.com/siepic/opics)
+      * [SignalIntegrity (linear circuit simulation)](https://github.com/TeledyneLeCroy/SignalIntegrity)
+      * [scikit-rf RF simulator](https://scikit-rf.readthedocs.io/en/latest/)
   - pyFDA filter design [code](https://github.com/chipmuenk/pyfda) and [docs](https://pyfda.readthedocs.io/en/latest/manual/input_specs.html)
-  - [Xyce](https://xyce.sandia.gov/) - open source, SPICE-compatible, high-performance analog circuit simulator.
+  - Optical communications
+    - [optiCommPy](https://github.com/edsonportosilva/OptiCommPy)
+  - Spice
+    - [Xyce](https://xyce.sandia.gov/) - open source, SPICE-compatible, high-performance analog circuit simulator.
 
 - material database
 
@@ -170,7 +174,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - [wafermap](https://github.com/xlhaw/wfmap)
 - [wafer data](https://github.com/guanghaofan/wafermap)
 - Webapp
-    - [voila][https://github.com/voila-dashboards/voila]
+    - [voila](https://github.com/voila-dashboards/voila)
     - [streamlit](https://github.com/streamlit/streamlit)
     - [plotly dash](https://dash.plotly.com/)
 

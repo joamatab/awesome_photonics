@@ -85,6 +85,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)
     - [jaxwell](https://github.com/stanfordnqp/jaxwell)
   - EME - Eigen mode expansion.
+    - [meow](https://github.com/flaport/meow)
     - [emepy](https://github.com/BYUCamachoLab/emepy)
     - [CAMFR](https://github.com/demisjohn/CAMFR)
   - RCWA:

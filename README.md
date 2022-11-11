@@ -21,16 +21,19 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 ## layout
 
-- [gdspy based tools](https://github.com/heitzmann/gdspy)
+- [gdstk](https://github.com/heitzmann/gdstk) - faster than gdspy (from same author)
   - gdsfactory [docs](https://gdsfactory.readthedocs.io/en/latest/) [code](https://github.com/gdsfactory/gdsfactory) - includes plugins to other tools.
+    - ubcpdk [docs](https://gdsfactory.github.io/ubc/README.html) and [code](https://github.com/gdsfactory/ubc)
+    - skywater130 [docs](https://gdsfactory.github.io/skywater130/README.html) and [code](https://github.com/gdsfactory/skywater130)
+  - [pyphotonics](https://github.com/rohanku/pyphotonics)
+- [gdspy based tools](https://github.com/heitzmann/gdspy)
   - [phidl](https://github.com/amccaugh/phidl) - made for superconducting detectors
     - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
   - [picwriter](https://github.com/DerekK88/PICwriter)
-- [gdstk](https://github.com/heitzmann/gdstk) - from gdspy author, made it faster
-  - [pyphotonics](https://github.com/rohanku/pyphotonics)
 - [klayout](https://github.com/KLayout/klayout) - layout viewer with python API
-  - [xsection, klayout-ipc, klayout-gadgets, lytest, lymask](https://github.com/atait?tab=repositories)
   - [zero-pdk](https://github.com/lightwave-lab/zeropdk) - klayout pure python pdk.
+  - [flayout](https://github.com/flaport/flayout/)
+  - [xsection, klayout-ipc, klayout-gadgets, lytest, lymask](https://github.com/atait?tab=repositories)
   - [KQcircuits](https://github.com/iqm-finland/KQCircuits) - Quantum circuits pdk.
   - [siepic-tools](https://github.com/lukasc-ubc/SiEPIC-Tools) - code driven PCells and GUI driven layouts.
   - [siepic-ebeam-pdk](https://github.com/lukasc-ubc/SiEPIC_EBeam_PDK)
@@ -38,18 +41,16 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [spicex: netlist extraction](https://github.com/fsitok/spicex)
   - [simplify polygons](https://github.com/fsitok/klayout-simplify)
   - [klayout python](https://github.com/shamil777/KLayout-python)
-  - [klayout cross-section in python](https://github.com/dimapu/klayout_pyxs) - Port from ruby to python to xsection macro
+  - [klayout cross-section in python](https://github.com/gdsfactory/klayout_pyxs) - Port from ruby to python to xsection macro
 - shapely based tools
   - [gdshelpers](https://github.com/HelgeGehring/gdshelpers) - includes superconducting detectors.
   - [dphox](https://github.com/solgaardlab/dphox) - includes 3D MEMs structures
 - [masque](https://mpxd.net/code/jan/masque)
 - [klamath](https://mpxd.net/code/jan/klamath)
 - [nazca](https://nazca-design.org/download/)
-- Technology Specific:
-
-  - [Ayar cell generator](https://github.com/AyarLabs/ACG)
-  - [BerkeleyPhotonicsGenerator](https://github.com/BerkeleyPhotonicsGenerator/BPG)
-  - [qiskit-metal](https://github.com/Qiskit/qiskit-metal) - IBM superconducting based qubits.
+- [Ayar cell generator](https://github.com/AyarLabs/ACG)
+- [BerkeleyPhotonicsGenerator](https://github.com/BerkeleyPhotonicsGenerator/BPG)
+- [qiskit-metal](https://github.com/Qiskit/qiskit-metal) - IBM superconducting based qubits.
 
 - layout viewers
   - [klayout](https://www.klayout.de/) - Best open source layout viewer.

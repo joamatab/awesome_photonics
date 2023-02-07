@@ -101,6 +101,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - SPLayout [code](https://github.com/Hideousmon/SPLayout) [docs](https://splayout.readthedocs.io/en/latest/index.html)
     - ceviche-challenges [code](https://github.com/google/ceviche-challenges) - Photonic inverse designs based on the FDFD simulator Ceviche
     - [NIDN](https://github.com/esa/NIDN) - Inverse design of metamaterials, photonic crystals, ... using PyTorch
+    - A Neural Operator-based Surrogate Solver for Free-Form Electromagnetic Inverse Design [[Paper](https://arxiv.org/pdf/2302.01934.pdf)] [[Github](https://github.com/tfp-photonics/neurop_invdes)]
   - [TCAD](https://tcadcentral.com/Software.html#open-source-tcad-software) [tcad repos](https://github.com/thesourcerer8/OpenSourceTCAD) [TCAD Overview spreadsheet here](https://docs.google.com/spreadsheets/d/1dK1GxGl1C7v3rhWKw3RcbeZsRre66HPAOPFbgYni74A/edit?pli=1#gid=0)
     - [devsim](https://devsim.org/) - Semiconductor Device Simulator
     - [BOSIM](https://eexu.home.ece.ust.hk/BOSIM.html)

@@ -69,6 +69,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
       - [wgms3d](http://www.soundtracker.org/raw/wgms3d/)
     - [pyMWM](https://github.com/mnishida/PyMWM)
     - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/) - Bloch mode solver.
+    - [protis](https://protis.gitlab.io) - Bloch mode solver (2D only), support for multiple backends (numpy/autograd/torch/jax)
 
 - component design:
 
@@ -89,9 +90,13 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [meow](https://github.com/flaport/meow)
     - [emepy](https://github.com/BYUCamachoLab/emepy)
     - [CAMFR](https://github.com/demisjohn/CAMFR)
+  - FEM:
+    - [gyptis](https://gyptis.gitlab.io) - based on FEniCS, automatic differentiation with dolfin-adjoint
   - RCWA:
     - [S4](https://github.com/victorliu/S4)
     - [grcwa](https://github.com/weiliangjinca/grcwa) - automatic differentiation included with autograd
+    - [nannos](https://nannos.gitlab.io) - support for multiple backends (numpy/autograd/torch/jax)
+  - [pyGDM](https://homepages.laas.fr/pwiecha/pygdm_doc/) - Green dyadic method for nanophotonics, including evolutionary optimization
   - [SiPANN (neural networks for photonics component design)](https://github.com/contagon/SiPANN)
   - [inverse design](http://metanet.stanford.edu/code/)
     - [glonet: global optimization based on generative neural networks](https://github.com/jonfanlab/GLOnet)

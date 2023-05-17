@@ -214,6 +214,9 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
   - [skywater-pdk](https://github.com/google/skywater-pdk)
 
+
+- transmission line [wcalc](https://github.com/dmcmahill/wcalc)
+
 ## other links
 
 - [princeton notebooks](https://github.com/simbilod/ELE559-simulations)

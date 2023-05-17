@@ -73,11 +73,8 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [pymode](https://github.com/smartalecH/pyMode) - Allows bends.
       - [wgms3d](http://www.soundtracker.org/raw/wgms3d/)
     - [pyMWM](https://github.com/mnishida/PyMWM)
-<<<<<<< HEAD
     - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/) - Bloch mode solver.
     - [protis](https://protis.gitlab.io) - Bloch mode solver (2D only), support for multiple backends (numpy/autograd/torch/jax)
-=======
->>>>>>> 2102ac8 (add new tools)
 
 - component design:
 

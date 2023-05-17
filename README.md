@@ -61,19 +61,28 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 - mode solver:
 
+  - Finite Element
+    - [femwell](https://modes.readthedocs.io/en/latest/)
+     
   - Finite Difference
+    - [tidy3d](https://github.com/flexcompute/tidy3d) Mode solver is open source
     - [modes](https://modes.readthedocs.io/en/latest/)
+    - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/) - Bloch mode solver.
     - [EMpy](https://github.com/lbolla/EMpy)
     - [philsol](https://github.com/philmain28/philsol) - Allows bends.
     - [pymode](https://github.com/smartalecH/pyMode) - Allows bends.
       - [wgms3d](http://www.soundtracker.org/raw/wgms3d/)
     - [pyMWM](https://github.com/mnishida/PyMWM)
+<<<<<<< HEAD
     - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/) - Bloch mode solver.
     - [protis](https://protis.gitlab.io) - Bloch mode solver (2D only), support for multiple backends (numpy/autograd/torch/jax)
+=======
+>>>>>>> 2102ac8 (add new tools)
 
 - component design:
 
   - FDTD - Finite differences time domain.
+    - [fdtdz](https://github.com/spinsphotonics/fdtdz)
     - [meep FDTD](https://github.com/NanoComp/meep)
       - [meep ipkiss integration](https://github.com/luceda/ipkiss_meep_integration)
       - [meep docker image](https://hub.docker.com/r/mochen4/meepdocker) - [code](https://github.com/mochen4/meepdocker)
@@ -128,6 +137,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
   - Sparameter linear solvers
       * SAX [code](https://github.com/flaport/sax) and [docs](https://flaport.github.io/sax/) - Differentiable circuit solver.
+      * [lekkersim](https://github.com/mpasson/lekkersim)
       * [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
       * [photontorch docs](https://docs.photontorch.com/) - [code](https://github.com/flaport/photontorch) - Includes time domain.
       * [opics](https://github.com/siepic/opics)
@@ -138,6 +148,9 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [optiCommPy](https://github.com/edsonportosilva/OptiCommPy)
   - Spice
     - [Xyce](https://xyce.sandia.gov/) - open source, SPICE-compatible, high-performance analog circuit simulator.
+    - [lcapy](https://github.com/mph-/lcapy) - Linear circuit analysis.
+    - [pyspice](https://github.com/FabriceSalvaire/PySpice)
+    - [openVAF](https://github.com/pascalkuthe/OpenVAF) Verilog-A
 
 - material database
 
@@ -206,8 +219,6 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 - circuit simulation
 
-  - [lcapy](https://github.com/mph-/lcapy) - Linear circuit analysis.
-  - [pyspice](https://github.com/FabriceSalvaire/PySpice)
   - [Spice book](https://github.com/PyLCARS/Python-and-SPICE-Book)
 
 - open source pdks

@@ -159,6 +159,9 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [dimmilitho](https://github.com/vincentlv/DimmiLitho)
   - [keras based litho model](https://github.com/Dusandinho/PreFab.git)
 
+- free space
+  - [waveprop](https://github.com/HelgeGehring/wavepropagation/)
+  - [lightpipes](https://github.com/opticspy/lightpipes)
 
 ## verification
 

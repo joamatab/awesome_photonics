@@ -144,7 +144,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - Optical communications
     - [optiCommPy](https://github.com/edsonportosilva/OptiCommPy)
   - RF photonic link analysis
-  -   [Princeton RF photonic notebooks](https://github.com/ericcblow/MWP_RF_Sims/tree/main)
+    - [Princeton RF photonic notebooks](https://github.com/ericcblow/MWP_RF_Sims/tree/main)
   - Spice
     - [Xyce](https://xyce.sandia.gov/) - open source, SPICE-compatible, high-performance analog circuit simulator.
     - [lcapy](https://github.com/mph-/lcapy) - Linear circuit analysis.

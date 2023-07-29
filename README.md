@@ -143,6 +143,8 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - pyFDA filter design [code](https://github.com/chipmuenk/pyfda) and [docs](https://pyfda.readthedocs.io/en/latest/manual/input_specs.html)
   - Optical communications
     - [optiCommPy](https://github.com/edsonportosilva/OptiCommPy)
+  - RF photonic link analysis
+  -   [Princeton RF photonic notebooks](https://github.com/ericcblow/MWP_RF_Sims/tree/main)
   - Spice
     - [Xyce](https://xyce.sandia.gov/) - open source, SPICE-compatible, high-performance analog circuit simulator.
     - [lcapy](https://github.com/mph-/lcapy) - Linear circuit analysis.

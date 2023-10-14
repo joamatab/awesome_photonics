@@ -21,16 +21,22 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 ## layout
 
+- [gdsfactory](https://gdsfactory.github.io/gdsfactory/) [code](https://github.com/gdsfactory/gdsfactory) - includes plugins to other tools.
+    - [gplugins](https://gdsfactory.github.io/gplugins)
+    - [ubcpdk](https://gdsfactory.github.io/ubc) and [code](https://github.com/gdsfactory/ubc)
+    - [skywater130](https://gdsfactory.github.io/skywater130) and [code](https://github.com/gdsfactory/skywater130)
+    - [gf180](https://gdsfactory.github.io/gf180)
+    - [vtt](https://gdsfactory.github.io/vtt)
 - [gdstk](https://github.com/heitzmann/gdstk) - faster than gdspy (from same author)
-  - gdsfactory [docs](https://gdsfactory.readthedocs.io/en/latest/) [code](https://github.com/gdsfactory/gdsfactory) - includes plugins to other tools.
-    - ubcpdk [docs](https://gdsfactory.github.io/ubc/README.html) and [code](https://github.com/gdsfactory/ubc)
-    - skywater130 [docs](https://gdsfactory.github.io/skywater130/README.html) and [code](https://github.com/gdsfactory/skywater130)
   - [pyphotonics](https://github.com/rohanku/pyphotonics)
 - [gdspy based tools](https://github.com/heitzmann/gdspy)
   - [phidl](https://github.com/amccaugh/phidl) - made for superconducting detectors
     - soen-pdk [docs](https://pages.nist.gov/SOEN-PDK/) and [code](https://github.com/usnistgov/SOEN-PDK)
   - [picwriter](https://github.com/DerekK88/PICwriter)
+  - [BerkeleyPhotonicsGenerator](https://github.com/BerkeleyPhotonicsGenerator/BPG)
+  - [Ayar cell generator](https://github.com/AyarLabs/ACG)
 - [klayout](https://github.com/KLayout/klayout) - layout viewer with python API
+  - [kfactory](https://github.com/gdsfactory/kfactory)
   - [zero-pdk](https://github.com/lightwave-lab/zeropdk) - klayout pure python pdk.
   - [flayout](https://github.com/flaport/flayout/)
   - [xsection, klayout-ipc, klayout-gadgets, lytest, lymask](https://github.com/atait?tab=repositories)
@@ -48,12 +54,11 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - [masque](https://mpxd.net/code/jan/masque)
 - [klamath](https://mpxd.net/code/jan/klamath)
 - [nazca](https://nazca-design.org/download/)
-- [Ayar cell generator](https://github.com/AyarLabs/ACG)
-- [BerkeleyPhotonicsGenerator](https://github.com/BerkeleyPhotonicsGenerator/BPG)
 - [qiskit-metal](https://github.com/Qiskit/qiskit-metal) - IBM superconducting based qubits.
 
 - layout viewers
   - [klayout](https://www.klayout.de/) - Best open source layout viewer.
+  - [kweb](https://github.com/gdsfactory/kweb)
   - [GDS3D](https://github.com/trilomix/GDS3D/)
   - [GDS2WebGL](https://github.com/s-holst/GDS2WebGL)
 
@@ -62,7 +67,9 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - mode solver:
 
   - Finite Element
-    - [femwell](https://modes.readthedocs.io/en/latest/)
+    - [femwell](https://helgegehring.github.io/femwell/)
+    - [elmer](https://github.com/elmercsc/elmerfem)
+    - [palace](https://awslabs.github.io/palace/stable/)
      
   - Finite Difference
     - [tidy3d](https://github.com/flexcompute/tidy3d) Mode solver is open source
@@ -99,6 +106,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - FEM:
     - [gyptis](https://gyptis.gitlab.io) - based on FEniCS, automatic differentiation with dolfin-adjoint
   - RCWA:
+    - [FMMAX](https://github.com/facebookresearch/fmmax)
     - [S4](https://github.com/victorliu/S4)
     - [grcwa](https://github.com/weiliangjinca/grcwa) - automatic differentiation included with autograd
     - [nannos](https://nannos.gitlab.io) - support for multiple backends (numpy/autograd/torch/jax)
@@ -153,6 +161,14 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [pyspice](https://github.com/FabriceSalvaire/PySpice)
     - [openVAF](https://github.com/pascalkuthe/OpenVAF) Verilog-A
 
+- nonlinear schrodinger equation (NLSE): calculate the propagation of pulses along a fiber/waveguide in the presence of dispersion and nonlinearity.
+    - [Laserfun](https://github.com/DanHickstein/laserfun) aims for simplicity
+    - [PyNLO](https://github.com/pyNLO/PyNLO) more capable, but unmaintained
+    - [PyNLO fork includes Chi2 simulation capabilities](https://cdfredrick.github.io/PyNLO/build/html/index.html)
+- Lugiato Lefever Equation (LLE) to calculate propagation in ring resonators:
+    - [PyGLLE](https://github.com/omelchert/pyGLLE) is nice and simple
+    - [PyLLE](https://github.com/gregmoille/pyLLE) has more features
+
 - material database
 
   - [rii pandas](https://github.com/mnishida/RII_Pandas)
@@ -180,15 +196,18 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [PySerial](https://github.com/pyserial/pyserial) - Issue simple serial commands (RS-232, RS485) to instruments (and read data).
 
 - lab automation repos:
-  - lightlab [repo](https://github.com/lightwave-lab/lightlab) [docs](https://lightlab.readthedocs.io/en/latest/index.html)
+  - [pymeasure](https://github.com/pymeasure/pymeasure)
+  - [autosweep](https://github.com/gdsfactory/autosweep) [docs](https://gdsfactory.github.io/autosweep/)
+  - [measurement sequencer](https://github.com/SweepMe/pysweepme)
+  - [drivers](https://github.com/SweepMe/instrument-drivers/tree/driver-migration)
+  - [lightlab](https://github.com/lightwave-lab/lightlab) [docs](https://lightlab.readthedocs.io/en/latest/index.html)
   - [instrumental](https://github.com/mabuchilab/Instrumental)
-  - [pymeasure](https://github.com/ralph-group/pymeasure)
   - [pyrolab](https://github.com/BYUCamachoLab/pyrolab)
   - LabEXT [docs](https://labext.readthedocs.io/en/latest/) and [code](https://github.com/LabExT/LabExT)
+  - [SiePIC lab](https://github.com/SiEPIC/SiEPIClab)
   - [hardware testing framework](https://github.com/google/openhtf) - Google
-  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem) - MIT
+  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem) 
   - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab) 
-  - [ubc automated pic-tester](https://github.com/lukasc-ubc/pyOptomip)
   - [labrad](https://github.com/labrad/pylabrad)
   - [autogator](https://github.com/BYUCamachoLab/autogator) - camera-assisted motion control and experiment configuration of photonic integrated circuit interrogation platforms.
 
@@ -228,7 +247,6 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - open source pdks
 
   - [skywater-pdk](https://github.com/google/skywater-pdk)
-
 
 - transmission line [wcalc](https://github.com/dmcmahill/wcalc)
 

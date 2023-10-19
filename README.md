@@ -199,7 +199,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [pymeasure](https://github.com/pymeasure/pymeasure)
   - [autosweep](https://github.com/gdsfactory/autosweep) [docs](https://gdsfactory.github.io/autosweep/)
   - [measurement sequencer](https://github.com/SweepMe/pysweepme)
-  - [drivers](https://github.com/SweepMe/instrument-drivers/tree/driver-migration)
+  - [drivers](https://github.com/SweepMe/instrument-drivers)
   - [lightlab](https://github.com/lightwave-lab/lightlab) [docs](https://lightlab.readthedocs.io/en/latest/index.html)
   - [instrumental](https://github.com/mabuchilab/Instrumental)
   - [pyrolab](https://github.com/BYUCamachoLab/pyrolab)

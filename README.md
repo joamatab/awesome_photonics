@@ -70,6 +70,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [femwell](https://helgegehring.github.io/femwell/)
     - [elmer](https://github.com/elmercsc/elmerfem)
     - [palace](https://awslabs.github.io/palace/stable/)
+    - [ngsolve](https://github.com/NGSolve/ngsolve)
      
   - Finite Difference
     - [tidy3d](https://github.com/flexcompute/tidy3d) Mode solver is open source

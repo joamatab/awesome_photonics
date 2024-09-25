@@ -74,6 +74,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
      
   - Finite Difference
     - [tidy3d](https://github.com/flexcompute/tidy3d) Mode solver is open source
+    - [khronos](https://github.com/facebookresearch/Khronos.jl)
     - [modes](https://modes.readthedocs.io/en/latest/)
     - [mpb](https://mpb.readthedocs.io/en/latest/Scheme_Tutorial/) - Bloch mode solver.
     - [EMpy](https://github.com/lbolla/EMpy)

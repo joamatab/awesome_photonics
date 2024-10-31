@@ -88,6 +88,8 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - component design:
 
   - FDTD - Finite differences time domain.
+    - [khronos](https://github.com/facebookresearch/Khronos.jl)
+    - [Luminescent](https://github.com/paulxshen/Luminescent.jl)
     - [fdtdz](https://github.com/spinsphotonics/fdtdz)
     - [meep FDTD](https://github.com/NanoComp/meep)
       - [meep ipkiss integration](https://github.com/luceda/ipkiss_meep_integration)

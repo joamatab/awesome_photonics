@@ -114,6 +114,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [S4](https://github.com/victorliu/S4)
     - [grcwa](https://github.com/weiliangjinca/grcwa) - automatic differentiation included with autograd
     - [nannos](https://nannos.gitlab.io) - support for multiple backends (numpy/autograd/torch/jax)
+    - [inkstone](https://github.com/alexysong/inkstone)
   - [Bempp](https://bempp.com) - Open-source computational boundary element platform to solve electrostatic, acoustic and electromagnetic problems
   - [OpenModes](https://openmodes.readthedocs.io) - Mode solver for open electromagnetic structures based on the method of moments (MOM)
   - [pyGDM](https://homepages.laas.fr/pwiecha/pygdm_doc/) - Green dyadic method for nanophotonics, including evolutionary optimization

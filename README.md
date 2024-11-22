@@ -143,6 +143,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [simphox (FDTD, beamPropagation, circuit simulation)](https://github.com/fancompute/simphox)
   - transfer matrix
     - [TMM](https://github.com/sbyrnes321/tmm)
+    - [tmmax](https://github.com/bahremsd/tmmax)
 
 - circuit simulation:
 

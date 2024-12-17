@@ -89,6 +89,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
   - FDTD - Finite differences time domain.
     - [khronos](https://github.com/facebookresearch/Khronos.jl)
+    - [fdtdx](https://github.com/ymahlau/fdtdx)
     - [Luminescent](https://github.com/paulxshen/Luminescent.jl)
     - [fdtdz](https://github.com/spinsphotonics/fdtdz)
     - [meep FDTD](https://github.com/NanoComp/meep)

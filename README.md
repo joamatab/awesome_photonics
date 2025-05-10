@@ -204,6 +204,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 - lab automation repos:
   - [pymeasure](https://github.com/pymeasure/pymeasure)
+  - [autolab](https://github.com/autolab-project)
   - [autosweep](https://github.com/gdsfactory/autosweep) [docs](https://gdsfactory.github.io/autosweep/)
   - [measurement sequencer](https://github.com/SweepMe/pysweepme)
   - [drivers](https://github.com/SweepMe/instrument-drivers)

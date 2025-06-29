@@ -139,6 +139,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - ray tracing:
     - [ray tracing](https://github.com/DCC-Lab/RayTracing)
     - [rayopt](https://github.com/quartiq/rayopt)
+    - [scattering tools](https://github.com/rafael-fuente/diffractsim)
   - adaptive optics
     - [AOtools](https://github.com/AOtools)
   - multisolvers

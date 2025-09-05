@@ -190,7 +190,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - free space
   - [waveprop](https://github.com/HelgeGehring/wavepropagation/)
   - [lightpipes](https://github.com/opticspy/lightpipes)
-  - [torchoptics](https://github.com/matthewfilipovich/torchoptics)
+  - [TorchOptics](https://github.com/matthewfilipovich/torchoptics)
 
 ## verification
 

@@ -119,6 +119,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [inkstone](https://github.com/alexysong/inkstone)
   - [Bempp](https://bempp.com) - Open-source computational boundary element platform to solve electrostatic, acoustic and electromagnetic problems
   - [OpenModes](https://openmodes.readthedocs.io) - Mode solver for open electromagnetic structures based on the method of moments (MOM)
+  - [Sipkit](https://github.com/Photonic-Architecture-Laboratories/si-photonics-toolkit) - A JAX-compatible toolkit providing fundamental waveguide and material properties to aid in the design of silicon photonic components.
   - [pyGDM](https://homepages.laas.fr/pwiecha/pygdm_doc/) - Green dyadic method for nanophotonics, including evolutionary optimization
   - [SiPANN (neural networks for photonics component design)](https://github.com/contagon/SiPANN)
   - [inverse design](http://metanet.stanford.edu/code/)

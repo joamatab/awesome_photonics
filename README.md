@@ -149,6 +149,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - transfer matrix
     - [TMM](https://github.com/sbyrnes321/tmm)
     - [tmmax](https://github.com/bahremsd/tmmax)
+    - [PyElli](https://github.com/PyEllips/pyElli) - Toolkit for 1D optical simulations, with a focus on ellipsometry
 
 - circuit simulation:
 

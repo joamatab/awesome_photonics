@@ -71,6 +71,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [elmer](https://github.com/elmercsc/elmerfem)
     - [palace](https://awslabs.github.io/palace/stable/)
     - [ngsolve](https://github.com/NGSolve/ngsolve)
+    - [jax-fem](https://github.com/deepmodeling/jax-fem)
      
   - Finite Difference
     - [tidy3d](https://github.com/flexcompute/tidy3d) Mode solver is open source
@@ -167,6 +168,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [Xyce](https://xyce.sandia.gov/) - open source, SPICE-compatible, high-performance analog circuit simulator.
     - [lcapy](https://github.com/mph-/lcapy) - Linear circuit analysis.
     - [pyspice](https://github.com/FabriceSalvaire/PySpice)
+    - [VACASK](https://codeberg.org/arpadbuermen/VACASK) Verilog-A
     - [openVAF](https://github.com/pascalkuthe/OpenVAF) Verilog-A
 
 - nonlinear schrodinger equation (NLSE): calculate the propagation of pulses along a fiber/waveguide in the presence of dispersion and nonlinearity.

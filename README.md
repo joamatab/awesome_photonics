@@ -193,6 +193,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [diffractsim](https://github.com/rafael-fuente/diffractsim)
   - [waveprop](https://github.com/HelgeGehring/wavepropagation/)
   - [lightpipes](https://github.com/opticspy/lightpipes)
+  - [TorchOptics](https://github.com/matthewfilipovich/torchoptics)
 
 ## verification
 

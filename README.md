@@ -141,6 +141,9 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - ray tracing:
     - [ray tracing](https://github.com/DCC-Lab/RayTracing)
     - [rayopt](https://github.com/quartiq/rayopt)
+    - [rayoptics](https://github.com/mjhoptics/ray-optics) - Optical design and analysis in Python
+    - [optiland](https://github.com/HarrisonKramer/optiland) - Comprehensive optical design with GPU-accelerated ray tracing via PyTorch
+    - [pyrate](https://github.com/mess42/pyrate) - Optical raytracing based on Python
     - [scattering tools](https://github.com/rafael-fuente/diffractsim)
   - adaptive optics
     - [AOtools](https://github.com/AOtools)
@@ -164,6 +167,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - pyFDA filter design [code](https://github.com/chipmuenk/pyfda) and [docs](https://pyfda.readthedocs.io/en/latest/manual/input_specs.html)
   - Optical communications
     - [optiCommPy](https://github.com/edsonportosilva/OptiCommPy)
+    - [QAMpy](https://github.com/ChalmersPhotonicsLab/QAMpy) - DSP chain for simulation and equalisation of optical communications signals
   - RF photonic link analysis
     - [Princeton RF photonic notebooks](https://github.com/ericcblow/MWP_RF_Sims/tree/main)
   - Spice
@@ -196,6 +200,10 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [waveprop](https://github.com/HelgeGehring/wavepropagation/)
   - [lightpipes](https://github.com/opticspy/lightpipes)
   - [TorchOptics](https://github.com/matthewfilipovich/torchoptics)
+  - [POPPY](https://github.com/mperrin/poppy) - Physical Optics Propagation in Python for diffraction modeling
+  - [prysm](https://github.com/brandondube/prysm) - Physical optics with integrated modeling, phase retrieval, segmented systems
+  - [HCIPy](https://github.com/ehpor/hcipy) - High Contrast Imaging for Python
+  - [Poke](https://github.com/Jashcraf/poke) - Polarization ray tracing and Gaussian beamlet module
 
 ## verification
 

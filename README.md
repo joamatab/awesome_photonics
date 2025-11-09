@@ -123,6 +123,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [Sipkit](https://github.com/Photonic-Architecture-Laboratories/si-photonics-toolkit) - A JAX-compatible toolkit providing fundamental waveguide and material properties to aid in the design of silicon photonic components.
   - [pyGDM](https://homepages.laas.fr/pwiecha/pygdm_doc/) - Green dyadic method for nanophotonics, including evolutionary optimization
   - [SiPANN (neural networks for photonics component design)](https://github.com/contagon/SiPANN)
+  - [Lightening-Transformer: A Dynamically-operated Optically-interconnected Photonic Transformer Accelerator](https://github.com/zhuhanqing/Lightening-Transformer)
   - [inverse design](http://metanet.stanford.edu/code/)
     - [glonet: global optimization based on generative neural networks](https://github.com/jonfanlab/GLOnet)
     - [wavetorch](https://github.com/fancompute/wavetorch)

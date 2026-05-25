@@ -13,8 +13,9 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - [simulation](#simulation): simulate how photons propagate, and optimize the geometrical shapes
 - [lab automation](#lab-automation): Control instruments in the lab
 - [data analysis](#data-analysis)
-- [visualization](#visualizatio)
+- [visualization](#visualization)
 - [electronics](#electronics)
+- [knowledge base](#knowledge-base)
 - [other links](#other-links)
 
 <!-- tocstop -->
@@ -22,11 +23,11 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 ## layout
 
 - [gdsfactory](https://gdsfactory.github.io/gdsfactory/) [code](https://github.com/gdsfactory/gdsfactory) - includes plugins to other tools.
-    - [gplugins](https://gdsfactory.github.io/gplugins)
-    - [ubcpdk](https://gdsfactory.github.io/ubc) and [code](https://github.com/gdsfactory/ubc)
-    - [skywater130](https://gdsfactory.github.io/skywater130) and [code](https://github.com/gdsfactory/skywater130)
-    - [gf180](https://gdsfactory.github.io/gf180)
-    - [vtt](https://gdsfactory.github.io/vtt)
+  - [gplugins](https://gdsfactory.github.io/gplugins)
+  - [ubcpdk](https://gdsfactory.github.io/ubc) and [code](https://github.com/gdsfactory/ubc)
+  - [skywater130](https://gdsfactory.github.io/skywater130) and [code](https://github.com/gdsfactory/skywater130)
+  - [gf180](https://gdsfactory.github.io/gf180)
+  - [vtt](https://gdsfactory.github.io/vtt)
 - [gdstk](https://github.com/heitzmann/gdstk) - faster than gdspy (from same author)
   - [pyphotonics](https://github.com/rohanku/pyphotonics)
 - [gdspy based tools](https://github.com/heitzmann/gdspy)
@@ -65,14 +66,12 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 ## simulation
 
 - mode solver:
-
   - Finite Element
     - [femwell](https://helgegehring.github.io/femwell/)
     - [elmer](https://github.com/elmercsc/elmerfem)
     - [palace](https://awslabs.github.io/palace/stable/)
     - [ngsolve](https://github.com/NGSolve/ngsolve)
     - [jax-fem](https://github.com/deepmodeling/jax-fem)
-     
   - Finite Difference
     - [tidy3d](https://github.com/flexcompute/tidy3d) Mode solver is open source
     - [khronos](https://github.com/facebookresearch/Khronos.jl)
@@ -87,7 +86,6 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [protis](https://protis.gitlab.io) - Bloch mode solver (2D only), support for multiple backends (numpy/autograd/torch/jax)
 
 - component design:
-
   - FDTD - Finite differences time domain.
     - [khronos](https://github.com/facebookresearch/Khronos.jl)
     - [fdtdx](https://github.com/ymahlau/fdtdx)
@@ -120,7 +118,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [nannos](https://nannos.gitlab.io) - support for multiple backends (numpy/autograd/torch/jax)
     - [inkstone](https://github.com/alexysong/inkstone)
   - FIT:
-    - [wakis](https://wakis.readthedocs.io/) - a 3D Time-domain Electromagnetic solver that solves the Integral form of Maxwell's equations using the Finite Integration Technique (FIT) numerical method. 
+    - [wakis](https://wakis.readthedocs.io/) - a 3D Time-domain Electromagnetic solver that solves the Integral form of Maxwell's equations using the Finite Integration Technique (FIT) numerical method.
   - [Bempp](https://bempp.com) - Open-source computational boundary element platform to solve electrostatic, acoustic and electromagnetic problems
   - [OpenModes](https://openmodes.readthedocs.io) - Mode solver for open electromagnetic structures based on the method of moments (MOM)
   - [Sipkit](https://github.com/Photonic-Architecture-Laboratories/si-photonics-toolkit) - A JAX-compatible toolkit providing fundamental waveguide and material properties to aid in the design of silicon photonic components.
@@ -160,15 +158,14 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [PyElli](https://github.com/PyEllips/pyElli) - Toolkit for 1D optical simulations, with a focus on ellipsometry
 
 - circuit simulation:
-
   - Sparameter linear solvers
-      * SAX [code](https://github.com/flaport/sax) and [docs](https://flaport.github.io/sax/) - Differentiable circuit solver.
-      * [lekkersim](https://github.com/mpasson/lekkersim)
-      * [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
-      * [photontorch docs](https://docs.photontorch.com/) - [code](https://github.com/flaport/photontorch) - Includes time domain.
-      * [opics](https://github.com/siepic/opics)
-      * [SignalIntegrity (linear circuit simulation)](https://github.com/TeledyneLeCroy/SignalIntegrity)
-      * [scikit-rf RF simulator](https://scikit-rf.readthedocs.io/en/latest/)
+    - SAX [code](https://github.com/flaport/sax) and [docs](https://flaport.github.io/sax/) - Differentiable circuit solver.
+    - [lekkersim](https://github.com/mpasson/lekkersim)
+    - [simphony (linear circuit solver)](https://github.com/BYUCamachoLab/simphony)
+    - [photontorch docs](https://docs.photontorch.com/) - [code](https://github.com/flaport/photontorch) - Includes time domain.
+    - [opics](https://github.com/siepic/opics)
+    - [SignalIntegrity (linear circuit simulation)](https://github.com/TeledyneLeCroy/SignalIntegrity)
+    - [scikit-rf RF simulator](https://scikit-rf.readthedocs.io/en/latest/)
   - pyFDA filter design [code](https://github.com/chipmuenk/pyfda) and [docs](https://pyfda.readthedocs.io/en/latest/manual/input_specs.html)
   - Optical communications
     - [optiCommPy](https://github.com/edsonportosilva/OptiCommPy)
@@ -183,15 +180,14 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [openVAF](https://github.com/pascalkuthe/OpenVAF) Verilog-A
 
 - nonlinear schrodinger equation (NLSE): calculate the propagation of pulses along a fiber/waveguide in the presence of dispersion and nonlinearity.
-    - [Laserfun](https://github.com/DanHickstein/laserfun) aims for simplicity
-    - [PyNLO](https://github.com/pyNLO/PyNLO) more capable, but unmaintained
-    - [PyNLO fork includes Chi2 simulation capabilities](https://cdfredrick.github.io/PyNLO/build/html/index.html)
+  - [Laserfun](https://github.com/DanHickstein/laserfun) aims for simplicity
+  - [PyNLO](https://github.com/pyNLO/PyNLO) more capable, but unmaintained
+  - [PyNLO fork includes Chi2 simulation capabilities](https://cdfredrick.github.io/PyNLO/build/html/index.html)
 - Lugiato Lefever Equation (LLE) to calculate propagation in ring resonators:
-    - [PyGLLE](https://github.com/omelchert/pyGLLE) is nice and simple
-    - [PyLLE](https://github.com/gregmoille/pyLLE) has more features
+  - [PyGLLE](https://github.com/omelchert/pyGLLE) is nice and simple
+  - [PyLLE](https://github.com/gregmoille/pyLLE) has more features
 
 - material database
-
   - [rii pandas](https://github.com/mnishida/RII_Pandas)
 
 - lithography simulation
@@ -213,12 +209,11 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 ## verification
 
 - parasitic extraction
-    - [speedsterpy](https://github.com/das-dias/speedsterpy)
+  - [speedsterpy](https://github.com/das-dias/speedsterpy)
 
 ## lab automation
 
 - backend:
-
   - [PyVISA](https://pyvisa.readthedocs.io/en/latest/) - Allows you to control the lab instruments with python. As the backend you can use NI or [PyVISA-py](https://pyvisa-py.readthedocs.io/en/latest/).
   - [PySerial](https://github.com/pyserial/pyserial) - Issue simple serial commands (RS-232, RS485) to instruments (and read data).
 
@@ -235,8 +230,8 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - LabEXT [docs](https://labext.readthedocs.io/en/latest/) and [code](https://github.com/LabExT/LabExT)
   - [SiePIC lab](https://github.com/SiEPIC/SiEPIClab)
   - [hardware testing framework](https://github.com/google/openhtf) - Google
-  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem) 
-  - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab) 
+  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
+  - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab)
   - [labrad](https://github.com/labrad/pylabrad)
   - [autogator](https://github.com/BYUCamachoLab/autogator) - camera-assisted motion control and experiment configuration of photonic integrated circuit interrogation platforms.
 
@@ -247,10 +242,9 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - [wafermap](https://github.com/xlhaw/wfmap)
 - [wafer data](https://github.com/guanghaofan/wafermap)
 - Webapp
-    - [voila](https://github.com/voila-dashboards/voila)
-    - [streamlit](https://github.com/streamlit/streamlit)
-    - [plotly dash](https://dash.plotly.com/)
-
+  - [voila](https://github.com/voila-dashboards/voila)
+  - [streamlit](https://github.com/streamlit/streamlit)
+  - [plotly dash](https://dash.plotly.com/)
 
 ## Visualization
 
@@ -258,26 +252,26 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - [Meshlab](https://github.com/cnr-isti-vclab/meshlab) for STL
 - [ParaView](https://www.paraview.org/) for data visualization
 
-
 ## electronics
 
 - schematic capture:
   - [skidl: netlist formatting, writing, and reading](https://github.com/devbisme/skidl)
   - elkjs [code](https://github.com/kieler/elkjs) [demo](https://rtsys.informatik.uni-kiel.de/elklive/elkgraph.html) - Javascript schematic editor.
 - layout
-
   - [kicad PCB layout python](https://github.com/atait/kicad-python)
   - [VLSI placement](https://github.com/limbo018/DREAMPlace)
 
 - circuit simulation
-
   - [Spice book](https://github.com/PyLCARS/Python-and-SPICE-Book)
 
 - open source pdks
-
   - [skywater-pdk](https://github.com/google/skywater-pdk)
 
 - transmission line [wcalc](https://github.com/dmcmahill/wcalc)
+
+## knowledge base
+
+- [everything-photonics](https://github.com/SohamGhugare/everything-photonics) - A knowledge base about all the topics and concepts on classical and quantum photonics
 
 ## other links
 

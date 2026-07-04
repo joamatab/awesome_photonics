@@ -138,7 +138,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - A Neural Operator-based Surrogate Solver for Free-Form Electromagnetic Inverse Design [[Paper](https://arxiv.org/pdf/2302.01934.pdf)] [[Github](https://github.com/tfp-photonics/neurop_invdes)]
   - [TCAD](https://tcadcentral.com/Software.html#open-source-tcad-software) [tcad repos](https://github.com/thesourcerer8/OpenSourceTCAD) [TCAD Overview spreadsheet here](https://docs.google.com/spreadsheets/d/1dK1GxGl1C7v3rhWKw3RcbeZsRre66HPAOPFbgYni74A/edit?pli=1#gid=0)
     - [devsim](https://devsim.org/) - Semiconductor Device Simulator
-    - [BOSIM](https://eexu.home.ece.ust.hk/BOSIM.html)
+    - [BOSIM](https://personal.hkust-gz.edu.cn/jiangxu/BOSIM.html)
     - [Suprem4](https://github.com/cogenda/Suprem4) - Process simulator (no python)
     - [pisces](https://github.com/ComputerWhisperer/pisces) - Poison and continuity equation solver (no python)
     - [TCAD docker containers](https://github.com/thesourcerer8/OpenSourceTCAD)

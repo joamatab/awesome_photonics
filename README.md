@@ -72,7 +72,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [palace](https://awslabs.github.io/palace/stable/)
     - [ngsolve](https://github.com/NGSolve/ngsolve)
     - [jax-fem](https://github.com/deepmodeling/jax-fem)
-     
+
   - Finite Difference
     - [tidy3d](https://github.com/flexcompute/tidy3d) Mode solver is open source
     - [khronos](https://github.com/facebookresearch/Khronos.jl)
@@ -120,7 +120,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [nannos](https://nannos.gitlab.io) - support for multiple backends (numpy/autograd/torch/jax)
     - [inkstone](https://github.com/alexysong/inkstone)
   - FIT:
-    - [wakis](https://wakis.readthedocs.io/) - a 3D Time-domain Electromagnetic solver that solves the Integral form of Maxwell's equations using the Finite Integration Technique (FIT) numerical method. 
+    - [wakis](https://wakis.readthedocs.io/) - a 3D Time-domain Electromagnetic solver that solves the Integral form of Maxwell's equations using the Finite Integration Technique (FIT) numerical method.
   - [Bempp](https://bempp.com) - Open-source computational boundary element platform to solve electrostatic, acoustic and electromagnetic problems
   - [OpenModes](https://openmodes.readthedocs.io) - Mode solver for open electromagnetic structures based on the method of moments (MOM)
   - [Sipkit](https://github.com/Photonic-Architecture-Laboratories/si-photonics-toolkit) - A JAX-compatible toolkit providing fundamental waveguide and material properties to aid in the design of silicon photonic components.
@@ -235,8 +235,8 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - LabEXT [docs](https://labext.readthedocs.io/en/latest/) and [code](https://github.com/LabExT/LabExT)
   - [SiePIC lab](https://github.com/SiEPIC/SiEPIClab)
   - [hardware testing framework](https://github.com/google/openhtf) - Google
-  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem) 
-  - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab) 
+  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
+  - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab)
   - [labrad](https://github.com/labrad/pylabrad)
   - [autogator](https://github.com/BYUCamachoLab/autogator) - camera-assisted motion control and experiment configuration of photonic integrated circuit interrogation platforms.
 

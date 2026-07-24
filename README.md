@@ -158,6 +158,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [TMM](https://github.com/sbyrnes321/tmm)
     - [tmmax](https://github.com/bahremsd/tmmax)
     - [PyElli](https://github.com/PyEllips/pyElli) - Toolkit for 1D optical simulations, with a focus on ellipsometry
+    - [TFStudio](https://tfstudio.xyz/) [code](https://github.com/aai2k/TFStudio) - GUI application for multilayer thin-film coating design, optimization (needle, gradual evolution) and tolerancing
 
 - circuit simulation:
 

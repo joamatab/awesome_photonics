@@ -209,6 +209,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - [prysm](https://github.com/brandondube/prysm) - Physical optics with integrated modeling, phase retrieval, segmented systems
   - [HCIPy](https://github.com/ehpor/hcipy) - High Contrast Imaging for Python
   - [Poke](https://github.com/Jashcraf/poke) - Polarization ray tracing and Gaussian beamlet module
+  - [Blender Optics Simulator](https://github.com/emircbngl/blender-optics-simulator) - Blender add-on: polarized ray + Gaussian-beam tracing, opto-mechanics, headless API
 
 ## verification
 

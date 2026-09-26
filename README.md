@@ -99,6 +99,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
       - [grating coupler example](https://github.com/simbilod/grating_coupler_meep)
     - [emopt FDTD](https://github.com/anstmichaels/emopt)
     - [Python 3D FDTD simulator](https://github.com/flaport/fdtd) - Written in PyTorch.
+    - [TorchFDTD](https://github.com/hyoseokp/TorchFDTD) - GPU-accelerated FDTD in Python with PyTorch-compatible discrete adjoints and a browser workbench.
     - tidy3d client [docs](https://docs.simulation.cloud/projects/tidy3d/en/latest/) and [code](https://github.com/flexcompute/tidy3d) - Server is propietary.
     - [GSvit](http://gsvit.net/) - GPU support
     - [ARTEMIS](https://github.com/AMReX-Microelectronics/artemis) - High-performance FDTD solver coupled with magnetization dynamics (LLG), GPU-accelerated for microelectronics and superconducting devices

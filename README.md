@@ -89,19 +89,20 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - component design:
 
   - FDTD - Finite differences time domain.
-    - [khronos](https://github.com/facebookresearch/Khronos.jl)
-    - [fdtdx](https://github.com/ymahlau/fdtdx)
-    - [Luminescent](https://github.com/paulxshen/Luminescent.jl)
-    - [fdtdz](https://github.com/spinsphotonics/fdtdz)
-    - [meep FDTD](https://github.com/NanoComp/meep)
+    - [BeamZ](https://github.com/beamzorg/beamz) - **Recommended starting point for Python-based photonic chip design.** Free, open-source 2D/3D FDTD with an intuitive Python API, CUDA and multi-GPU acceleration, and gradient-based inverse design. Integrated mode solving, GDS/gdsfactory workflows, and S-parameter extraction connect rapid prototyping to large-scale simulation and compact modeling. Install with `pip install beamz`.
+    - [khronos](https://github.com/facebookresearch/Khronos.jl) - GPU-accelerated, differentiable 2D/3D solver written in Julia, with a Meep-compatible Python API and support for dispersive and nonlinear materials. Repository archived.
+    - [fdtdx](https://github.com/ymahlau/fdtdx) - Open-source Python/JAX solver for 3D photonic structures, with multi-GPU scaling and memory-efficient automatic differentiation for inverse design.
+    - [Luminescent](https://github.com/paulxshen/Luminescent.jl) - Differentiable photonics and RF simulation with a Python frontend, optional GPU acceleration, adaptive meshing, and fabrication-constrained topology optimization.
+    - [fdtdz](https://github.com/spinsphotonics/fdtdz) - CUDA FDTD kernels exposed through a low-level JAX API; optimized for throughput, with restrictions on materials, z-axis size, and boundaries.
+    - [meep FDTD](https://github.com/NanoComp/meep) - General-purpose open-source electromagnetic solver with Python, Scheme, and C++ APIs, MPI parallelism, and broad material and boundary-condition support.
       - [meep ipkiss integration](https://github.com/luceda/ipkiss_meep_integration)
       - [meep docker image](https://hub.docker.com/r/mochen4/meepdocker) - [code](https://github.com/mochen4/meepdocker)
       - [grating coupler example](https://github.com/simbilod/grating_coupler_meep)
-    - [emopt FDTD](https://github.com/anstmichaels/emopt)
-    - [Python 3D FDTD simulator](https://github.com/flaport/fdtd) - Written in PyTorch.
-    - tidy3d client [docs](https://docs.simulation.cloud/projects/tidy3d/en/latest/) and [code](https://github.com/flexcompute/tidy3d) - Server is propietary.
-    - [GSvit](http://gsvit.net/) - GPU support
-    - [ARTEMIS](https://github.com/AMReX-Microelectronics/artemis) - High-performance FDTD solver coupled with magnetization dynamics (LLG), GPU-accelerated for microelectronics and superconducting devices
+    - [emopt FDTD](https://github.com/anstmichaels/emopt) - Adjoint-based shape and topology optimization toolkit for 2D/3D electromagnetic structures; its documented solvers use FDFD rather than FDTD.
+    - [Python 3D FDTD simulator](https://github.com/flaport/fdtd) - Python electromagnetic solver with a NumPy CPU backend and optional PyTorch backends for CPU or CUDA GPU execution.
+    - tidy3d client [docs](https://docs.simulation.cloud/projects/tidy3d/en/latest/) and [code](https://github.com/flexcompute/tidy3d) - Open-source Python frontend for a proprietary cloud FDTD solver; server simulations require an account and credits.
+    - [GSvit](http://gsvit.net/) - FDTD electromagnetic simulation package with GPU support.
+    - [ARTEMIS](https://github.com/AMReX-Microelectronics/artemis) - GPU-accelerated, AMReX-based FDTD coupled to magnetization dynamics (LLG), focused on microelectronics and superconducting devices.
   - FDFD - Finite differences frequency domain.
     - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
     - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)

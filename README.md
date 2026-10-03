@@ -72,7 +72,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [palace](https://awslabs.github.io/palace/stable/)
     - [ngsolve](https://github.com/NGSolve/ngsolve)
     - [jax-fem](https://github.com/deepmodeling/jax-fem)
-     
+
   - Finite Difference
     - [tidy3d](https://github.com/flexcompute/tidy3d) Mode solver is open source
     - [khronos](https://github.com/facebookresearch/Khronos.jl)
@@ -89,19 +89,24 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - component design:
 
   - FDTD - Finite differences time domain.
-    - [khronos](https://github.com/facebookresearch/Khronos.jl)
-    - [fdtdx](https://github.com/ymahlau/fdtdx)
-    - [Luminescent](https://github.com/paulxshen/Luminescent.jl)
-    - [fdtdz](https://github.com/spinsphotonics/fdtdz)
-    - [meep FDTD](https://github.com/NanoComp/meep)
+    - [BeamZ](https://github.com/beamzorg/beamz) - Free, open-source 2D/3D FDTD with an intuitive Python API, CUDA/multi-GPU acceleration, and inverse design. Integrated mode solving, GDS/gdsfactory workflows, and S-parameter extraction streamline photonic chip design.
+    - [khronos](https://github.com/facebookresearch/Khronos.jl) - Differentiable Julia GPU solver with a Meep-compatible Python API. Repository archived.
+    - [fdtdx](https://github.com/ymahlau/fdtdx) - Python/JAX 3D solver with multi-GPU scaling and memory-efficient inverse design.
+    - [Luminescent](https://github.com/paulxshen/Luminescent.jl) - Differentiable photonics/RF solver with a Python frontend, GPU support, and adaptive meshing.
+    - [fdtdz](https://github.com/spinsphotonics/fdtdz) - Low-level CUDA/JAX kernels with material, z-axis size, and boundary restrictions.
+    - [meep FDTD](https://github.com/NanoComp/meep) - General-purpose electromagnetic solver with Python/Scheme/C++ APIs, MPI parallelism, and broad material support.
       - [meep ipkiss integration](https://github.com/luceda/ipkiss_meep_integration)
       - [meep docker image](https://hub.docker.com/r/mochen4/meepdocker) - [code](https://github.com/mochen4/meepdocker)
       - [grating coupler example](https://github.com/simbilod/grating_coupler_meep)
-    - [emopt FDTD](https://github.com/anstmichaels/emopt)
-    - [Python 3D FDTD simulator](https://github.com/flaport/fdtd) - Written in PyTorch.
+    - [Python 3D FDTD simulator](https://github.com/flaport/fdtd) - NumPy-based Python solver with optional PyTorch CPU/CUDA backends.
     - tidy3d client [docs](https://docs.simulation.cloud/projects/tidy3d/en/latest/) and [code](https://github.com/flexcompute/tidy3d) - Server is propietary.
     - [GSvit](http://gsvit.net/) - GPU support
     - [ARTEMIS](https://github.com/AMReX-Microelectronics/artemis) - High-performance FDTD solver coupled with magnetization dynamics (LLG), GPU-accelerated for microelectronics and superconducting devices
+  - FDFD - Finite differences frequency domain.
+    - [emopt FDFD](https://github.com/anstmichaels/emopt) - Adjoint shape/topology optimization toolkit; documented solvers use FDFD rather than FDTD.
+    - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
+    - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)
+    - [jaxwell](https://github.com/stanfordnqp/jaxwell)
   - FDFD - Finite differences frequency domain.
     - [spins FDFD on GPU](https://github.com/stanfordnqp/spins-b)
     - [ceviche (2D only) FDTD and FDFD](https://github.com/twhughes/ceviche)
@@ -120,7 +125,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [nannos](https://nannos.gitlab.io) - support for multiple backends (numpy/autograd/torch/jax)
     - [inkstone](https://github.com/alexysong/inkstone)
   - FIT:
-    - [wakis](https://wakis.readthedocs.io/) - a 3D Time-domain Electromagnetic solver that solves the Integral form of Maxwell's equations using the Finite Integration Technique (FIT) numerical method. 
+    - [wakis](https://wakis.readthedocs.io/) - a 3D Time-domain Electromagnetic solver that solves the Integral form of Maxwell's equations using the Finite Integration Technique (FIT) numerical method.
   - [Bempp](https://bempp.com) - Open-source computational boundary element platform to solve electrostatic, acoustic and electromagnetic problems
   - [OpenModes](https://openmodes.readthedocs.io) - Mode solver for open electromagnetic structures based on the method of moments (MOM)
   - [Sipkit](https://github.com/Photonic-Architecture-Laboratories/si-photonics-toolkit) - A JAX-compatible toolkit providing fundamental waveguide and material properties to aid in the design of silicon photonic components.
@@ -235,8 +240,8 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
   - LabEXT [docs](https://labext.readthedocs.io/en/latest/) and [code](https://github.com/LabExT/LabExT)
   - [SiePIC lab](https://github.com/SiEPIC/SiEPIClab)
   - [hardware testing framework](https://github.com/google/openhtf) - Google
-  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem) 
-  - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab) 
+  - [pic-wafer](https://github.com/DerekK88/PIC_WaferProbeSystem)
+  - [laval python lab](https://github.com/Simon-Belanger/ULPythonLab)
   - [labrad](https://github.com/labrad/pylabrad)
   - [autogator](https://github.com/BYUCamachoLab/autogator) - camera-assisted motion control and experiment configuration of photonic integrated circuit interrogation platforms.
 

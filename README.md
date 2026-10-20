@@ -281,6 +281,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 
 ## other links
 
+- [Optics · Photonics](https://github.com/Cherish0925/optics-photonics) - Bilingual software catalogue with physical methods, licensing, programming interfaces and primary sources; offline HTML and reusable JSON.
 - [princeton notebooks](https://github.com/simbilod/ELE559-simulations)
 - https://hackmd.io/@joamatab/rJngxJudr#/
 - https://git.shivering-isles.com/shivering-isles/infrastructure

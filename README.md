@@ -290,3 +290,4 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
 - [Awesome electronics](https://github.com/kitspace/awesome-electronics)
 - [Awesome scientific computing](https://github.com/nschloe/awesome-scientific-computing)
 - [Awesome lists](https://github.com/sindresorhus/awesome)
+- [PhotonCalc](https://narwhalthepong.github.io/photoncalc/) - free browser photonics calculators (ring resonator, QPM poling, Sellmeier, Gaussian beams)

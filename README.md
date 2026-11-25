@@ -119,6 +119,7 @@ If you are new to Git and Python I recommend reading this [article](https://ligh
     - [grcwa](https://github.com/weiliangjinca/grcwa) - automatic differentiation included with autograd
     - [nannos](https://nannos.gitlab.io) - support for multiple backends (numpy/autograd/torch/jax)
     - [inkstone](https://github.com/alexysong/inkstone)
+    - [SPECTRA-RCWA](https://github.com/hyoseokp/SPECTRA-RCWA) - GPU-batched RCWA in PyTorch without eigendecomposition, with adjoint gradients.
   - FIT:
     - [wakis](https://wakis.readthedocs.io/) - a 3D Time-domain Electromagnetic solver that solves the Integral form of Maxwell's equations using the Finite Integration Technique (FIT) numerical method. 
   - [Bempp](https://bempp.com) - Open-source computational boundary element platform to solve electrostatic, acoustic and electromagnetic problems
